@@ -27,6 +27,7 @@ default:
                     clear_screenshot_directory: true
 
         Behat\MinkExtension:
+            files_path: %paths.base%/tests/files/
             base_url:  'http://localhost:8000'
             default_session: goutte
             goutte: ~

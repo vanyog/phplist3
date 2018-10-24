@@ -760,18 +760,41 @@ function ListAvailableLists($userid = 0, $lists_to_show = '')
             $categories[] = $value['category'];
         }
         $uniqueCat = array_unique($categories);
+        $len = count($uniqueCat);
+        $firsthalf = array_slice($uniqueCat, 0, $len / 2);
+        var_dump($firsthalf);
 
-        $html = '<div class="accordion" >';
-        foreach ($uniqueCat as $key) {
+        $secondhalf = array_slice($uniqueCat, $len / 2);
+        var_dump($secondhalf);
+        $html = '<div id="accordion" role="tablist" aria-multiselectable="true">                 
+                    <div class="row"> 
+                                  
+                                            
+                        <div class="col-md-6">   ';
+        foreach ($firsthalf as $key) {
             if ($key !== '') {
                 $displayedCat = $key;
-            } else  $displayedCat = s('Other');
-            $html .= '<h3 ><a name="general" >' . $displayedCat . '</a></h3>';
-            $html .= '<div>';
+            } else  $displayedCat = s('General');
+            $cat= str_replace(' ','',$displayedCat);
+            $href= '#'.$cat;
+            $html .= ' <div class="card">                                         
+                         <div class="card-header" role="tab">                                                 
+                            <a data-toggle="collapse" data-parent="' . $href . '" data-target="' . $href . '" href="' . $href . '" aria-expanded="true" aria-controls="' . $cat. '">
+                                <h4>' . $displayedCat. '</h4>
+                            </a>                                         
+                       </div>                                         
+                <div id="' . $cat. '" class="collapse" role="tabpanel" aria-labelledby="headingOne">     
+
+
+';
+
             foreach ($listspercategory as $listelement)
                 if ($listelement['category'] === $key) {
                     if ($listelement['active'] || in_array($listelement['id'], $subscribed)) {
-                        $html .= '<ul class="list">';
+                        $html .= '<div id="categorylist" class="card-block">                                                         
+                        				                                                  
+                   
+                                  <ul class="list">';
                         $html .= '<li ><input type="checkbox" name="list[' . $listelement['id'] . ']" value="signup" ';
                         if (isset($list[$listelement['id']]) && $list[$listelement['id']] === 'signup') {
                             $html .= 'checked="checked"';
@@ -797,14 +820,94 @@ function ListAvailableLists($userid = 0, $lists_to_show = '')
 
                     }
                     $html .= '</ul>';
-                }
+                    $html .= '</div>';
+            }
+
 
             $html .= '</div>';
+            $html .= '</div>';
+
+
+
+
         }
 
         // end of row active
 
         $html .= '</div>';
+
+
+
+
+
+        $html .= '<div class="col-md-6">   ';
+        foreach ($secondhalf as $key) {
+            if ($key !== '') {
+                $displayedCat = $key;
+            } else  $displayedCat = s('Other');
+            $cat= str_replace(' ','',$displayedCat);
+            $href= '#'.$cat;
+            $html .= ' <div class="card">                                         
+                         <div class="card-header" role="tab">                                                 
+                            <a data-toggle="collapse" data-parent="' . $href . '" data-target="' . $href . '" href="' . $href . '" aria-expanded="true" aria-controls="' . $cat. '">
+                                <h4>' . $displayedCat. '</h4>
+                            </a>                                         
+                </div>                                         
+                <div id="' . $cat. '" class="collapse" role="tabpanel" aria-labelledby="headingOne">     
+
+
+';
+
+            foreach ($listspercategory as $listelement) {
+                if ($listelement['category'] === $key) {
+                    if ($listelement['active'] || in_array($listelement['id'], $subscribed)) {
+                        $html .= '<div class="card-block">                                                         
+                        				                                                  
+                   
+                                  <ul id="categorylist"  class="list">';
+                        $html .= '<li ><input type="checkbox" name="list[' . $listelement['id'] . ']" value="signup" ';
+                        if (isset($list[$listelement['id']]) && $list[$listelement['id']] === 'signup') {
+                            $html .= 'checked="checked"';
+                        }
+                        if ($userid) {
+                            $req = Sql_Fetch_Row_Query(sprintf('select userid from %s where userid = %d and listid = %d',
+                                $GLOBALS['tables']['listuser'], $userid, $listelement['id']));
+                            if (Sql_Affected_Rows()) {
+                                $html .= 'checked="checked"';
+                            }
+                        }
+
+
+                        $html .= ' /><b>' . stripslashes($listelement['name']) . '</b><div class="listdescription">';
+                        $desc = nl2br(stripslashes($listelement['description']));
+                        //     $html .= '<input type="hidden" name="listname['.$row["id"] . ']" value="'.htmlspecialchars(stripslashes($row["name"])).'"/>';
+                        $html .= $desc . '</div></li>';
+                        ++$some;
+                        if ($some == 1) {
+                            $singlelisthtml = sprintf('<input type="hidden" name="list[%d]" value="signup" />', $listelement['id']);
+                            $singlelisthtml .= '<input type="hidden" name="listname[' . $listelement['id'] . ']" value="' . htmlspecialchars(stripslashes($listelement['name'])) . '"/>';
+                        }
+
+                    }
+                    $html .= '</ul>';
+                    $html .= '</div>';
+                }
+            }
+
+            $html .= '</div>';
+            $html .= '</div>';
+
+
+        }
+
+    // end of row active
+
+
+    $html .= '</div>';
+
+        $html .= '</div>';
+        $html .= '</div>';
+
 
     } else {
 
@@ -838,15 +941,6 @@ function ListAvailableLists($userid = 0, $lists_to_show = '')
         $html .= '</ul>';
 
     }
-
-
-
-
-
-
-
-
-
 
 
     $hidesinglelist = getConfig('hide_single_list');

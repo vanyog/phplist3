@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-17 07:52+0200\n"
-"Last-Translator: AlexDimitrov <alexander@avdesigngroup.org>\n"
+"PO-Revision-Date: 2019-12-17 11:59+0200\n"
+"Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,7 +97,6 @@ msgid "list"
 msgstr "списък"
 
 #: public_html/lists/admin/listbounces.php:49 public_html/lists/admin/msgbounces.php:14
-#, fuzzy
 msgid "# bounced"
 msgstr "# отхвърлени"
 
@@ -123,7 +122,6 @@ msgid "address"
 msgstr "адрес"
 
 #: public_html/lists/admin/listbounces.php:114 public_html/lists/admin/msgbounces.php:71
-#, fuzzy
 msgid "# bounces"
 msgstr "# отхвърлени"
 
@@ -273,19 +271,19 @@ msgstr "Импорт абонати"
 
 #: public_html/lists/admin/home.php:100
 msgid "Manage Campaigns"
-msgstr "Редактирайте Кампании"
+msgstr "Редактирай кампании"
 
 #: public_html/lists/admin/home.php:102
 msgid "View current campaigns"
-msgstr "Вижте настоящите кампании"
+msgstr "Виж текущи кампании"
 
 #: public_html/lists/admin/home.php:107
 msgid "Manage Subscribers"
-msgstr "Редактирайте Абонати"
+msgstr "Редактирай абонати"
 
 #: public_html/lists/admin/home.php:109
 msgid "Search, edit and add Subscribers"
-msgstr "Търсене, редакция и добавяне Потребители"
+msgstr "Търси, редактирай, добави потребители"
 
 #: public_html/lists/admin/home.php:114 public_html/lists/admin/admin.php:256 public_html/lists/admin/importadmin.php:325
 msgid "View Statistics"
@@ -301,7 +299,7 @@ msgstr "Начало"
 
 #: public_html/lists/admin/home.php:131
 msgid "Manage Lists"
-msgstr "Управление на Списъци"
+msgstr "Управлявай списъци"
 
 #: public_html/lists/admin/home.php:133
 msgid "View, edit and add lists, that your subscribers can sign up to"
@@ -341,15 +339,15 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:165
 msgid "List and user functions"
-msgstr ""
+msgstr "Функции за списъци и потребители"
 
 #: public_html/lists/admin/home.php:174
 msgid "configure"
-msgstr ""
+msgstr "конфитуриране"
 
 #: public_html/lists/admin/home.php:176
 msgid "Configure"
-msgstr ""
+msgstr "Конфигуриране"
 
 #: public_html/lists/admin/home.php:181
 msgid "attributes"
@@ -373,15 +371,15 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:205
 msgid "Configuration Functions"
-msgstr ""
+msgstr "Функции за конфигуриране"
 
 #: public_html/lists/admin/home.php:215
 msgid "admins"
-msgstr ""
+msgstr "администратори"
 
 #: public_html/lists/admin/home.php:217
 msgid "Add, edit and remove Administrators"
-msgstr ""
+msgstr "Добави, редактирай, премахни едминистратори"
 
 #: public_html/lists/admin/home.php:222
 msgid "adminattributes"
@@ -393,15 +391,15 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:228
 msgid "Administrator Functions"
-msgstr ""
+msgstr "Функции за администратори"
 
 #: public_html/lists/admin/home.php:238 public_html/lists/admin/list.php:198 public_html/lists/admin/list.php:275
 msgid "send"
-msgstr ""
+msgstr "изпрати"
 
 #: public_html/lists/admin/home.php:240
 msgid "Send a Message"
-msgstr ""
+msgstr "Изпрати съобщение"
 
 #: public_html/lists/admin/home.php:246
 msgid "preparesend"
@@ -472,19 +470,19 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:298
 msgid "Message Functions"
-msgstr ""
+msgstr "Функции за съобщения"
 
 #: public_html/lists/admin/home.php:346 public_html/lists/admin/about.php:59
 msgid "Plugins"
-msgstr ""
+msgstr "Добавки"
 
 #: public_html/lists/admin/home.php:356
 msgid "setup"
-msgstr ""
+msgstr "установяване"
 
 #: public_html/lists/admin/home.php:358
 msgid "Setup "
-msgstr ""
+msgstr "Установяване "
 
 #: public_html/lists/admin/home.php:363
 msgid "upgrade"
@@ -492,43 +490,43 @@ msgstr "надстрой"
 
 #: public_html/lists/admin/home.php:370
 msgid "dbcheck"
-msgstr ""
+msgstr "бд-проба"
 
 #: public_html/lists/admin/home.php:372
 msgid "Check Database structure"
-msgstr ""
+msgstr "Провери структура БД"
 
 #: public_html/lists/admin/home.php:378
 msgid "eventlog"
-msgstr ""
+msgstr "журнал-събития"
 
 #: public_html/lists/admin/home.php:380
 msgid "View the eventlog"
-msgstr ""
+msgstr "Виж журнал-събития"
 
 #: public_html/lists/admin/home.php:385
 msgid "admin"
-msgstr ""
+msgstr "админ"
 
 #: public_html/lists/admin/home.php:387
 msgid "Change your details (e.g. password)"
-msgstr ""
+msgstr "Промени своите данни (например парола)"
 
 #: public_html/lists/admin/home.php:391
 msgid "System Functions"
-msgstr ""
+msgstr "Функции за система"
 
 #: public_html/lists/admin/dbcheck.php:8
 msgid "Database structure check"
-msgstr ""
+msgstr "База данни провери структура"
 
 #: public_html/lists/admin/dbcheck.php:13
 msgid "Database structure"
-msgstr ""
+msgstr "База данни структура"
 
 #: public_html/lists/admin/msgstatus.php:15 public_html/lists/admin/actions/msgstatus.php:68
 msgid "requeue"
-msgstr ""
+msgstr "наново в опашка"
 
 #: public_html/lists/admin/msgstatus.php:19
 msgid "Stalled"
@@ -597,11 +595,11 @@ msgstr "Скоро посетени"
 
 #: public_html/lists/admin/connect.php:1232
 msgid "All Lists"
-msgstr "Всички Списъци"
+msgstr "Всички списъци"
 
 #: public_html/lists/admin/connect.php:1238
 msgid "All Public Lists"
-msgstr "Всички Публични Списъци"
+msgstr "Всички публични пписъци"
 
 #: public_html/lists/admin/connect.php:1242 public_html/lists/admin/import2.php:636 public_html/lists/admin/list.php:48
 #: public_html/lists/admin/list.php:52 public_html/lists/admin/list.php:311 public_html/lists/admin/import3.php:42
@@ -2722,7 +2720,7 @@ msgstr "Прави"
 
 #: public_html/lists/admin/messages.php:130
 msgid "Clear"
-msgstr ""
+msgstr "Почисти"
 
 #: public_html/lists/admin/messages.php:151 public_html/lists/admin/messages.php:186 public_html/lists/admin/messages.php:200
 #: public_html/lists/admin/send_core.php:477 public_html/lists/admin/import3.php:370 public_html/lists/admin/initialise.php:103
@@ -3638,58 +3636,57 @@ msgid "Record has no email"
 msgstr ""
 
 #: public_html/lists/admin/actions/import2.php:101 public_html/lists/admin/import2.php:520 public_html/lists/admin/importadmin.php:133
-#, fuzzy
 msgid "Invalid Email"
-msgstr "Невалидна поща"
+msgstr "Невалиден имейл"
 
 #: public_html/lists/admin/actions/import2.php:150 public_html/lists/admin/import2.php:566
 msgid "clear value"
-msgstr ""
+msgstr "почисти стойност"
 
 #: public_html/lists/admin/actions/import2.php:160 public_html/lists/admin/import2.php:576
 msgid "New Attribute"
-msgstr ""
+msgstr "Нов атрибут"
 
 #: public_html/lists/admin/actions/import2.php:163 public_html/lists/admin/import2.php:579
 msgid "Skip value"
-msgstr ""
+msgstr "Пропусни стойност"
 
 #: public_html/lists/admin/actions/import2.php:226 public_html/lists/admin/actions/import2.php:236
 #: public_html/lists/admin/actions/import2.php:238
 msgid "duplicate"
-msgstr ""
+msgstr "дублирай"
 
 #: public_html/lists/admin/actions/import2.php:236 public_html/lists/admin/actions/import2.php:273
 msgid "Duplicate Email"
-msgstr ""
+msgstr "Дублирай имейл"
 
 #: public_html/lists/admin/actions/import2.php:236
 msgid " user imported as "
-msgstr ""
+msgstr " потребител импортиран като "
 
 #: public_html/lists/admin/actions/import2.php:483
 msgid "All the emails already exist in the database and are member of the lists"
-msgstr ""
+msgstr "Всички имейли вече съществуват в базата данни и са в този списък"
 
 #: public_html/lists/admin/actions/import2.php:485
 #, php-format
 msgid "%d emails succesfully imported to the database and added to %d lists."
-msgstr ""
+msgstr "%d имейли са успешно импортирани и добавени в %d списъка."
 
 #: public_html/lists/admin/actions/import2.php:486
 #, php-format
 msgid "%d emails subscribed to the lists"
-msgstr ""
+msgstr "%d имейли са абонирани за този списък"
 
 #: public_html/lists/admin/actions/import2.php:488 public_html/lists/admin/actions/import1.php:222
 #, php-format
 msgid "%d emails already existed in the database"
-msgstr ""
+msgstr "%d имейли вече съществуват в базата данни"
 
 #: public_html/lists/admin/actions/import2.php:492
 #, php-format
 msgid "%d Invalid Emails found."
-msgstr ""
+msgstr "%d имейли са невалидни."
 
 #: public_html/lists/admin/actions/import2.php:494
 msgid "These records were added, but the email has been made up from "
@@ -4599,7 +4596,7 @@ msgstr ""
 
 #: public_html/lists/admin/list.php:43 public_html/lists/admin/catlists.php:72
 msgid "Categorise lists"
-msgstr ""
+msgstr "Категоризирай списъци"
 
 #: public_html/lists/admin/list.php:180 public_html/lists/admin/list.php:187
 msgid "All subscribers"
@@ -4671,11 +4668,11 @@ msgstr ""
 
 #: public_html/lists/admin/usermgt.php:9
 msgid "search subscribers"
-msgstr ""
+msgstr "търси абонати"
 
 #: public_html/lists/admin/usermgt.php:10
 msgid "manage subscriber attributes"
-msgstr ""
+msgstr "управлявай атрибути на абанати"
 
 #: public_html/lists/admin/usermgt.php:29
 msgid "edit values for attributes"
@@ -4697,14 +4694,15 @@ msgstr ""
 msgid "Verify subscribers"
 msgstr ""
 
-msgid "Import subscribers"
-msgstr ""
-
-#: public_html/lists/admin/usermgt.php:37
-msgid "Import subscribers"
-msgstr ""
-
 #: public_html/lists/admin/usermgt.php:39
+msgid "Import subscribers"
+msgstr "Импорт абонати"
+
+#: public_html/lists/admin/ui/default/footer.inc:7
+msgid "Navigation"
+msgstr "Навигация"
+
+#: public_html/lists/admin/usermgt.php:41
 msgid "Export subscribers"
 msgstr ""
 
@@ -4957,7 +4955,7 @@ msgstr ""
 
 #: public_html/lists/admin/user.php:304
 msgid "No Lists"
-msgstr ""
+msgstr "Няма списъци"
 
 #: public_html/lists/admin/user.php:308
 msgid "History"
@@ -5458,9 +5456,8 @@ msgid "Privileges"
 msgstr ""
 
 #: public_html/lists/admin/admin.php:254 public_html/lists/admin/importadmin.php:323
-#, fuzzy
 msgid "Manage subscribers"
-msgstr "Редактирайте Абонати"
+msgstr "Редактирай абонати"
 
 #: public_html/lists/admin/admin.php:255 public_html/lists/admin/importadmin.php:324
 #, fuzzy
@@ -5642,7 +5639,7 @@ msgstr ""
 
 #: public_html/lists/admin/attributes.php:381
 msgid "edit values"
-msgstr "редактиране стойности"
+msgstr "редактирай стойности"
 
 #: public_html/lists/admin/attributes.php:385 public_html/lists/admin/attributes.php:414 public_html/lists/admin/spageedit.php:311
 msgid "Default Value"
@@ -6715,7 +6712,7 @@ msgstr ""
 
 #: public_html/lists/admin/editlist.php:164 public_html/lists/admin/catlists.php:86
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: public_html/lists/admin/editlist.php:166 public_html/lists/admin/catlists.php:79
 msgid "choose category"
@@ -7253,15 +7250,15 @@ msgstr ""
 
 #: public_html/lists/admin/catlists.php:40
 msgid "No list categories have been defined"
-msgstr ""
+msgstr "Не са дефинирани категории"
 
 #: public_html/lists/admin/catlists.php:41
 msgid "Once you have set up a few categories, come back to this page to classify your lists with your categories."
-msgstr ""
+msgstr "Щом зададете няколко кетегории, елате отново на тази страница, за да класифицирате списъците в категории."
 
 #: public_html/lists/admin/catlists.php:42 public_html/lists/admin/catlists.php:70
 msgid "Configure Categories"
-msgstr ""
+msgstr "Конфигурирай категории"
 
 #: public_html/lists/admin/catlists.php:56
 msgid "Category assignments saved"

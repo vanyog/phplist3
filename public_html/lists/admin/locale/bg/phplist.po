@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-17 11:59+0200\n"
+"PO-Revision-Date: 2019-12-17 14:26+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -367,7 +367,7 @@ msgstr "възраст"
 
 #: public_html/lists/admin/home.php:200
 msgid "Configure Subscribe Pages"
-msgstr ""
+msgstr "Кнфигурирай страница за абониране"
 
 #: public_html/lists/admin/home.php:205
 msgid "Configuration Functions"
@@ -968,55 +968,55 @@ msgstr ""
 
 #: public_html/lists/admin/lib.php:26
 msgid "delete subscriber"
-msgstr ""
+msgstr "изтрий абонат"
 
 #: public_html/lists/admin/lib.php:27
 msgid "unconfirm subscriber"
-msgstr ""
+msgstr "отмени потвърден абонат"
 
 #: public_html/lists/admin/lib.php:28
 msgid "blacklist subscriber"
-msgstr ""
+msgstr "абонат в черен списък"
 
 #: public_html/lists/admin/lib.php:29
 msgid "blacklist email address"
-msgstr ""
+msgstr "имейли в черен списък"
 
 #: public_html/lists/admin/lib.php:30
 msgid "delete subscriber and bounce"
-msgstr ""
+msgstr "изтрий абонат и отхвърли"
 
 #: public_html/lists/admin/lib.php:31
 msgid "unconfirm subscriber and delete bounce"
-msgstr ""
+msgstr "отмени потвърден и премахни отхвърлен"
 
 #: public_html/lists/admin/lib.php:32
 msgid "blacklist subscriber and delete bounce"
-msgstr ""
+msgstr "абоната в черен списък и премахни отхвърлен"
 
 #: public_html/lists/admin/lib.php:33
 msgid "blacklist email address and delete bounce"
-msgstr ""
+msgstr "имейл в черен списък и премахни отхвърлен"
 
 #: public_html/lists/admin/lib.php:34
 msgid "delete bounce"
-msgstr ""
+msgstr "премахни отхвърлен"
 
 #: public_html/lists/admin/lib.php:48
 msgid "Unnamed List"
-msgstr ""
+msgstr "Неименуван списък"
 
 #: public_html/lists/admin/lib.php:308
 msgid "Hello"
-msgstr ""
+msgstr "Здравейте"
 
 #: public_html/lists/admin/lib.php:309
 msgid "You have requested a new password for phpList."
-msgstr ""
+msgstr "Вие сте поискали нова парола за phpList"
 
 #: public_html/lists/admin/lib.php:310
 msgid "To enter a new one, please visit the following link:"
-msgstr ""
+msgstr "За да въведете нова, моля, щрекнете хипервръзката:"
 
 #: public_html/lists/admin/lib.php:312
 msgid "You have 24 hours left to change your password. After that, your token won't be valid."
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: public_html/lists/admin/lib.php:1915
 msgid "Subscribe"
-msgstr ""
+msgstr "Абонирай"
 
 #: public_html/lists/admin/lib.php:1915
 msgid "Do not subscribe"
@@ -2192,7 +2192,7 @@ msgstr "Стойност по подразбиране:"
 
 #: public_html/lists/admin/adminattributes.php:100 public_html/lists/admin/adminattributes.php:121
 msgid "Order of Listing:"
-msgstr "Ред в списъци:"
+msgstr "Ред в списък:"
 
 #: public_html/lists/admin/adminattributes.php:102 public_html/lists/admin/adminattributes.php:122
 msgid "Is this attribute required?:"
@@ -2400,7 +2400,7 @@ msgstr ""
 
 #: public_html/lists/admin/members.php:63
 msgid "Members of"
-msgstr ""
+msgstr "Участници в"
 
 #: public_html/lists/admin/members.php:65
 msgid "edit list details"
@@ -2464,9 +2464,8 @@ msgid "Listing subscriber %d to %d"
 msgstr "Покажи %d до %d"
 
 #: public_html/lists/admin/members.php:260
-#, fuzzy
 msgid "Listing subscriber 1 to 50"
-msgstr "Покажи %d до %d"
+msgstr "Покажи абонати от 1 до 50"
 
 #: public_html/lists/admin/members.php:274 public_html/lists/admin/domainstats.php:28
 msgid "confirmed"
@@ -2487,7 +2486,7 @@ msgstr ""
 
 #: public_html/lists/admin/members.php:297 public_html/lists/admin/list.php:191 public_html/lists/admin/list.php:251
 msgid "Members"
-msgstr ""
+msgstr "Участници"
 
 #: public_html/lists/admin/members.php:311 public_html/lists/admin/bouncerules.php:99
 msgid "tag"
@@ -2675,7 +2674,7 @@ msgstr ""
 
 #: public_html/lists/admin/messages.php:10 public_html/lists/admin/users.php:311
 msgid "Sort by"
-msgstr "Сортирай по"
+msgstr "Ред по"
 
 #: public_html/lists/admin/messages.php:11 public_html/lists/admin/messages.php:13 public_html/lists/admin/messages.php:15
 #: public_html/lists/admin/messages.php:17
@@ -3296,7 +3295,7 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:897 public_html/lists/admin/users.php:312
 msgid "desc"
-msgstr "намаляване"
+msgstr "надолу"
 
 #: public_html/lists/admin/send_core.php:898
 msgid "size"
@@ -3612,28 +3611,28 @@ msgstr ""
 
 #: public_html/lists/admin/actions/configure.php:86
 msgid "save changes"
-msgstr ""
+msgstr "запази промени"
 
 #: public_html/lists/admin/actions/configure.php:92
 msgid "undo"
-msgstr ""
+msgstr "отмени"
 
 #: public_html/lists/admin/actions/configure.php:105
 msgid "editing cancelled"
-msgstr ""
+msgstr "редактиране отменено"
 
 #: public_html/lists/admin/actions/import2.php:10 public_html/lists/admin/import2.php:179
 msgid "Reading emails from file ... "
-msgstr ""
+msgstr "Четене имейли от файл ... "
 
 #: public_html/lists/admin/actions/import2.php:29 public_html/lists/admin/import2.php:217
 #, php-format
 msgid "ok, %d lines"
-msgstr ""
+msgstr "добре, %d реда"
 
 #: public_html/lists/admin/actions/import2.php:98 public_html/lists/admin/import2.php:517 public_html/lists/admin/importadmin.php:131
 msgid "Record has no email"
-msgstr ""
+msgstr "Записът няма имейл"
 
 #: public_html/lists/admin/actions/import2.php:101 public_html/lists/admin/import2.php:520 public_html/lists/admin/importadmin.php:133
 msgid "Invalid Email"
@@ -3690,16 +3689,16 @@ msgstr "%d имейли са невалидни."
 
 #: public_html/lists/admin/actions/import2.php:494
 msgid "These records were added, but the email has been made up from "
-msgstr ""
+msgstr "Тези записи бяха добавени, но имейлите са направени от "
 
 #: public_html/lists/admin/actions/import2.php:496 public_html/lists/admin/import3.php:514
 msgid "These records were deleted. Check your source and reimport the data. Duplicates will be identified."
-msgstr ""
+msgstr "Тези записи бяха изтрити. Проверете източника и импортирайте отново. Повторенията ще се идентифицират."
 
 #: public_html/lists/admin/actions/import2.php:500
 #, php-format
 msgid "%d duplicate emails found."
-msgstr ""
+msgstr "%d дублирани имейли."
 
 #: public_html/lists/admin/actions/import2.php:503
 #, php-format
@@ -4612,7 +4611,7 @@ msgstr ""
 
 #: public_html/lists/admin/list.php:191 public_html/lists/admin/list.php:251
 msgid "View Members"
-msgstr ""
+msgstr "Покажи участници"
 
 #: public_html/lists/admin/list.php:194
 msgid "This is a system list. You cannot delete it."
@@ -4620,7 +4619,7 @@ msgstr ""
 
 #: public_html/lists/admin/list.php:196 public_html/lists/admin/list.php:273
 msgid "delete this list"
-msgstr ""
+msgstr "изтрий този списък"
 
 #: public_html/lists/admin/list.php:198
 msgid "start a new campaign targetting all lists"
@@ -4628,7 +4627,7 @@ msgstr ""
 
 #: public_html/lists/admin/list.php:199 public_html/lists/admin/list.php:276
 msgid "Add Members"
-msgstr ""
+msgstr "Добави участници"
 
 #: public_html/lists/admin/list.php:205
 msgid "You seem to have quite a lot of lists, do you want to organise them in categories? "
@@ -4640,23 +4639,23 @@ msgstr ""
 
 #: public_html/lists/admin/list.php:254
 msgid "Public"
-msgstr ""
+msgstr "Публичен"
 
 #: public_html/lists/admin/list.php:267
 msgid "Order"
-msgstr ""
+msgstr "Ред"
 
 #: public_html/lists/admin/list.php:271
 msgid "Are you sure you want to delete this list?"
-msgstr ""
+msgstr "Сигурни ли сте, че искате да изтриете този списък?"
 
 #: public_html/lists/admin/list.php:275
 msgid "Edit this list"
-msgstr ""
+msgstr "Редактирай този списък"
 
 #: public_html/lists/admin/list.php:275
 msgid "start a new campaign targetting this list"
-msgstr ""
+msgstr "старт на нова кампания с таргет този списък"
 
 #: public_html/lists/admin/list.php:284
 msgid "No lists, use Add List to add one"
@@ -4972,31 +4971,31 @@ msgstr ""
 
 #: public_html/lists/admin/user.php:332
 msgid "Add a new subscriber"
-msgstr ""
+msgstr "Добави нов абонат"
 
 #: public_html/lists/admin/user.php:335
 msgid "Email address"
-msgstr ""
+msgstr "Имейл адрес"
 
 #: public_html/lists/admin/user.php:380
 msgid "Add to blacklist"
-msgstr ""
+msgstr "Добави в черен списък"
 
 #: public_html/lists/admin/user.php:382
 msgid "Remove from blacklist"
-msgstr ""
+msgstr "Махни от черен списък"
 
 #: public_html/lists/admin/user.php:457
 msgid "Subscriber is blacklisted. No emails will be sent to this email address."
-msgstr ""
+msgstr "Абонатът е в черен списък. До неговия имейл няма да бъдат изпращани съобщения."
 
 #: public_html/lists/admin/user.php:460
 msgid "Mailinglist membership"
-msgstr ""
+msgstr "Участие в списък"
 
 #: public_html/lists/admin/user.php:490 public_html/lists/admin/userhistory.php:54
 msgid "Details"
-msgstr ""
+msgstr "Данни"
 
 #: public_html/lists/admin/generatebouncerules.php:38
 msgid "Process Next Batch"
@@ -5159,7 +5158,6 @@ msgid "Select the columns to include in the export"
 msgstr ""
 
 #: public_html/lists/admin/export.php:140
-#, fuzzy
 msgid "Export"
 msgstr "Експорт"
 
@@ -5170,7 +5168,7 @@ msgstr ""
 #: public_html/lists/admin/about.php:15
 #, php-format
 msgid "phpList is licensed with the %sGNU Affero Public License (AGPL)%s"
-msgstr ""
+msgstr "phpList се лицензира по %sGNU Affero Public License (AGPL)%s"
 
 #: public_html/lists/admin/about.php:17
 msgid "Developers"
@@ -5647,7 +5645,7 @@ msgstr "Стойност по подразбиране"
 
 #: public_html/lists/admin/attributes.php:387 public_html/lists/admin/attributes.php:416 public_html/lists/admin/spageedit.php:312
 msgid "Order of Listing"
-msgstr "Ред в списъци"
+msgstr "Ред в списъка"
 
 #: public_html/lists/admin/attributes.php:389
 msgid "Is this attribute required ?"
@@ -6090,7 +6088,7 @@ msgstr "Покажи само от черния списък"
 
 #: public_html/lists/admin/users.php:313
 msgid "asc"
-msgstr "растене"
+msgstr "нагоре"
 
 #: public_html/lists/admin/users.php:332 public_html/lists/admin/users.php:336 public_html/lists/admin/mviews.php:150
 #: public_html/lists/admin/mviews.php:153
@@ -6104,7 +6102,7 @@ msgstr "Намери потребител"
 
 #: public_html/lists/admin/users.php:374 public_html/databasestructure.php:19
 msgid "Unique ID"
-msgstr ""
+msgstr "Уникален ID"
 
 #: public_html/lists/admin/users.php:381
 msgid "reset"
@@ -6221,7 +6219,7 @@ msgstr ""
 
 #: public_html/lists/admin/initialise.php:190
 msgid "List for testing"
-msgstr ""
+msgstr "Списък за тестване"
 
 #: public_html/lists/admin/initialise.php:192
 msgid "Sign up to our newsletter"
@@ -6684,7 +6682,7 @@ msgstr ""
 
 #: public_html/lists/admin/editlist.php:51
 msgid "Members of this list"
-msgstr ""
+msgstr "Участници в този списък"
 
 #: public_html/lists/admin/editlist.php:89
 msgid "New list added"
@@ -6696,19 +6694,19 @@ msgstr ""
 
 #: public_html/lists/admin/editlist.php:130
 msgid "List name"
-msgstr ""
+msgstr "Име на списък"
 
 #: public_html/lists/admin/editlist.php:141
 msgid "Public list (listed on the frontend)"
-msgstr ""
+msgstr "Публичен списък (списък във фронтенд)"
 
 #: public_html/lists/admin/editlist.php:142
 msgid "Order for listing"
-msgstr ""
+msgstr "Ред за списъка"
 
 #: public_html/lists/admin/editlist.php:150 public_html/lists/admin/spageedit.php:366
 msgid "Owner"
-msgstr ""
+msgstr "Собственик"
 
 #: public_html/lists/admin/editlist.php:164 public_html/lists/admin/catlists.php:86
 msgid "Category"
@@ -6716,27 +6714,27 @@ msgstr "Категория"
 
 #: public_html/lists/admin/editlist.php:166 public_html/lists/admin/catlists.php:79
 msgid "choose category"
-msgstr ""
+msgstr "избери категория"
 
 #: public_html/lists/admin/editlist.php:180
 msgid "List Description"
-msgstr ""
+msgstr "Описание на списъка"
 
 #: public_html/lists/admin/editlist.php:183
 msgid "Save"
-msgstr ""
+msgstr "Запази"
 
 #: public_html/lists/admin/editlist.php:184
 msgid "Cancel"
-msgstr ""
+msgstr "Отмени"
 
 #: public_html/lists/admin/editlist.php:184
 msgid "Do not save, and go back to the lists"
-msgstr ""
+msgstr "Не запазвай и назад към списъци"
 
 #: public_html/lists/admin/domainstats.php:22
 msgid "Top 50 domains with more than 5 emails"
-msgstr ""
+msgstr "Топ 50 домейни с повече от 5 имейла"
 
 #: public_html/lists/admin/domainstats.php:30 public_html/lists/admin/domainstats.php:49 public_html/lists/admin/domainstats.php:53
 #: public_html/lists/admin/domainstats.php:72
@@ -6970,11 +6968,11 @@ msgstr ""
 
 #: public_html/lists/admin/inc/interfacelib.php:1238 public_html/lists/admin/inc/interfacelib.php:1283
 msgid "close"
-msgstr ""
+msgstr "затвори"
 
 #: public_html/lists/admin/defaults.php:45
 msgid "Loading"
-msgstr ""
+msgstr "Зареждане"
 
 #: public_html/lists/admin/defaults.php:80
 msgid "return to editing attributes"
@@ -7123,11 +7121,11 @@ msgstr ""
 
 #: public_html/lists/admin/spageedit.php:98
 msgid "Subscribe page information saved"
-msgstr ""
+msgstr "Информация за страница за абониране запазена"
 
 #: public_html/lists/admin/spageedit.php:108
 msgid "Subscribe to our newsletter"
-msgstr ""
+msgstr "Абониране за нашия бюлетин"
 
 #: public_html/lists/admin/spageedit.php:125
 msgid "Please indicate how often you want to receive messages"
@@ -7392,7 +7390,7 @@ msgstr ""
 
 #: public_html/databasestructure.php:35
 msgid "Order of listing"
-msgstr ""
+msgstr "Ред в списъка"
 
 #: public_html/databasestructure.php:36
 msgid "Subject prefix"
@@ -7816,11 +7814,11 @@ msgstr ""
 
 #: public_html/databasestructure.php:198
 msgid "pagetitle:home"
-msgstr ""
+msgstr "pagetitle:табло"
 
 #: public_html/databasestructure.php:199
 msgid "pagetitlehover:home"
-msgstr ""
+msgstr "pagetitlehover:табло"
 
 #: public_html/databasestructure.php:200
 msgid "pagetitle:setup"
@@ -7888,7 +7886,7 @@ msgstr ""
 
 #: public_html/databasestructure.php:216
 msgid "pagetitle:editlist"
-msgstr ""
+msgstr "pagetitle:редакция-списък"
 
 #: public_html/databasestructure.php:217
 msgid "pagetitlehover:editlist"
@@ -8024,11 +8022,11 @@ msgstr ""
 
 #: public_html/databasestructure.php:250
 msgid "pagetitle:adduser"
-msgstr ""
+msgstr "pagetitle:адресат"
 
 #: public_html/databasestructure.php:251
 msgid "pagetitlehover:adduser"
-msgstr ""
+msgstr "pagetitlehover:адресат"
 
 #: public_html/databasestructure.php:252
 msgid "pagetitle:userhistory"

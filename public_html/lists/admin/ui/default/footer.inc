@@ -4,7 +4,7 @@
     <div id="right-bar" class="grid_4 four columns">
     <?php echo $firstInstallButton?>
         <div id="context-menu" class="menutableright block">
-            <h3><?php s('Navigation') ?></h3>
+            <h3><?php echo s('Navigation') ?></h3>
             <?php print contextMenu(); ?>
         </div>
         <div id="recent" class="menutableright block">

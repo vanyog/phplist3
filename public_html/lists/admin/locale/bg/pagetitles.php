@@ -1,0 +1,82 @@
+<?php
+switch ($page) {
+  case 'home': $page_title = 'Табло';break;
+  case 'setup': $page_title = 'Конфигуриране';break;
+  case 'about': $page_title = 'Относно '.NAME;break;
+  case 'attributes': $page_title = 'Конфигуриране атрибути';break;
+  case 'stresstest': $page_title = 'Стрес тест';break;
+  case 'list': $page_title = 'Списъци абонати';break;
+  case 'catlists': $page_title = 'Categorise lists';break;
+  case 'editattributes': $page_title = 'Конфигуриране атрибути';break;
+  case 'editlist': $page_title = 'Редектиране списъкt';break;
+  case 'checki18n': $page_title = 'Проверка дали съществуват преводите';break;
+  case 'importsimple': $page_title = 'Импорт абонати чрез cut-и-paste';break;
+  case 'import4': $page_title = 'Импорт абонати от отдалечена база данни';break;
+  case 'import3': $page_title = 'Импорт абонати от IMAP';break;
+  case 'import2': $page_title = 'Импорт абонати от CSV файл';break;
+  case 'import1': $page_title = 'Импорт абонати от текстов файл';break;
+  case 'import': $page_title = 'Импорт имейли';break;
+  case 'export': $page_title = 'Експорт абонати';break;
+  case 'initialise': $page_title = 'Инициализиране база данни';break;
+  case 'send': $page_title = 'Изпращане кампания';break;
+  case 'preparesend': $page_title = 'Приготви съобщение за изпращане';break;
+  case 'sendprepared': $page_title = 'Изпращане приготвено съобщение';break;
+  case 'members': $page_title = 'Списък членство';break;
+  case 'users': $page_title = 'Търсене абонати';break;
+  case 'reconcileusers': $page_title = 'Reconcile subscribers';break;
+  case 'user': $page_title = 'Данни за абонат';break;
+  case 'userhistory': $page_title = 'История на абонат';break;
+  case 'messages': $page_title = 'Списък кампании';break;
+  case 'message': $page_title = 'Преглед кампания';break;
+  case 'processqueue': $page_title = 'Изпращане опашка';break;
+  case 'defaults': $page_title = 'Някои полезни атрибути по подразбиране';break;
+  case 'upgrade': $page_title = 'Надграждане '.NAME;break;
+  case 'templates': $page_title = 'Управление шаблони за кампании';break;
+  case 'template': $page_title = 'Добави/редактирай шаблон';break;
+  case 'viewtemplate': $page_title = 'Преглед шаблон';break;
+  case 'configure': $page_title = 'Настройки';break;
+  case 'admin': $page_title = 'Редактиране/добавяне администратор';break;
+  case 'admins': $page_title = 'Списък администратори';break;
+  case 'adminattributes': $page_title = 'Конфигуриране атрибути администратор';break;
+  case 'processbounces': $page_title = 'Retrieve bounces from server';break;
+  case 'bounces': $page_title = 'View bounces';break;
+  case 'bounce': $page_title = 'View a bounce';break;
+  case 'spageedit': $page_title = 'Редактиране страница на абонат';break;
+  case 'spage': $page_title = 'Страници на абонати';break;
+  case 'eventlog': $page_title = 'Журнал събития';break;
+  case 'getrss': $page_title = 'Извличане RSS емисии';break;
+  case 'viewrss': $page_title = 'Преглед RSS единици';break;
+  case 'community': $page_title = 'Помощ'; break;#$page_title = 'Добре дошли в общността на phpList';break;
+  case 'vote': $page_title = 'Гласувай за phpList';break;
+  case 'login': $page_title = 'Вход';break;
+  case 'logout': $page_title = 'Изход';break;
+  case 'mclicks': $page_title = 'Статистика за щраквания в кампания'; break;
+  case 'uclicks': $page_title = 'Статистика за щреквания на URL'; break;
+  case 'massunconfirm': $page_title = 'Suppression list';break;
+  case 'massremove': $page_title = 'Премахване абонати'; break;
+  case 'usermgt': $page_title = 'Управление абонати'; break;
+  case 'bouncemgt': $page_title = 'Manage bounces'; break;
+  case 'domainstats': $page_title = 'Статистика по домейн'; break;
+  case 'mviews': $page_title = 'View opens'; break;
+  case 'statsmgt': $page_title = 'Управление статистика'; break;
+  case 'statsoverview': $page_title = 'Статистика обобщение'; break;
+  case 'subscriberstats': $page_title = 'Статистика абонати'; break;
+  case 'dbcheck': $page_title = 'Проверка на структурата на БД'; break;
+  case 'importadmin': $page_title = 'Импорт администратори'; break;
+  case 'dbadmin': $page_title = ''; break;
+  case 'usercheck': $page_title = 'Verify that subscribers exist in the system';break;
+  case 'listbounces': $page_title = 'View bounces per list';break;
+  case 'bouncerules': $page_title = 'Bounce rules';break;
+  case 'checkbouncerules': $page_title = 'Check bounce rules';break;
+  case 'translate': $page_title = 'Translate phpList';break;
+  case 'ajaxform': $page_title = 'Ajax integration';break;
+  case 'updatetranslation': $page_title = 'Update translations'; break;
+  case 'reindex': $page_title = 'Re-index DB'; break;
+  case 'plugins': $page_title = 'Manage Plugins'; break;
+
+  default: $page_title = $page;
+    if (0) { ## discover new titles
+      file_put_contents('/tmp/pagetitles.php',' case \''.$page.'\'\: $page_title = ""; break;'."\n",FILE_APPEND);
+    }
+}
+?>

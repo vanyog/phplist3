@@ -16,9 +16,9 @@ $database_host = 'localhost';
 // what is the name of the database we are using
 $database_name = 'phplistdb';
 // what user has access to this database
-$database_user = 'phplist';
+$database_user = 'root';
 // and what is the password to login to control the database
-$database_password = 'phplist';
+$database_password = '';
 // if you have an SMTP server, set it here. Otherwise it will use the normal php mail() function
 //# if your SMTP server is called "smtp.mydomain.com" you enter this below like this:
 //#
@@ -82,3 +82,8 @@ $bounce_unsubscribe_threshold = 5;
 // check the extended config for more info
 // in most cases, it is fine to leave this as it is
 define('HASH_ALGO', 'sha256');
+
+$language_module = 'bulgarian.inc';
+$default_system_language = "bg";
+$pageroot = '/lists';
+define('VERBOSE', true);

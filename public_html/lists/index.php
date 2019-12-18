@@ -795,7 +795,7 @@ function subscribePage2($id)
   if (USE_SPAM_BLOCK) {
     $html .= '<div style="display:none"><input type="text" name="VerificationCodeX" value="" size="20"></div>';
   }
-  $html .= '<button type="submit" name="subscribe">'.$GLOBALS['pagedata']["button"].'</button>
+  $html .= '<button type="submit" name="subscribe">'.$GLOBALS['pagedata']['button'].'</button>
     </form>
     <p><a href="'.getConfig("unsubscribeurl").'&id='.$id.'">'.$GLOBALS["strUnsubscribe"].'</a></p>
   '.$GLOBALS["PoweredBy"];

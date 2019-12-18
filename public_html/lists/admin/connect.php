@@ -1607,7 +1607,7 @@ function PageData($id)
         $data = array();
         $data['header'] = getConfig('pageheader');
         $data['footer'] = getConfig('pagefooter');
-        $data['button'] = 'Subscribe';
+        $data['button'] = s('Subscribe');
         $data['attributes'] = '';
         $req = Sql_Query(sprintf('select * from %s order by listorder', $GLOBALS['tables']['attribute']));
         while ($row = Sql_Fetch_Array($req)) {

@@ -85,5 +85,5 @@ define('HASH_ALGO', 'sha256');
 
 $language_module = 'bulgarian.inc';
 $default_system_language = "bg";
-$pageroot = '/lists';
+$pageroot = '/pl/public_html/lists';
 define('VERBOSE', true);

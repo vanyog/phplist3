@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-18 03:14+0200\n"
+"PO-Revision-Date: 2019-12-18 11:22+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -160,6 +160,10 @@ msgstr "Чернови на съобщения"
 #: public_html/lists/admin/send.php:106 public_html/lists/admin/message.php:90
 msgid "entered"
 msgstr "въведени"
+
+#: public_html/lists/admin/messages.php:163
+msgid "Search campaigns"
+msgstr "Търсене в кампании"
 
 #: public_html/lists/admin/send.php:107
 msgid "age"
@@ -427,11 +431,11 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:268 public_html/lists/admin/import3.php:161 public_html/lists/admin/import3.php:376
 msgid "messages"
-msgstr ""
+msgstr "съобщения"
 
 #: public_html/lists/admin/home.php:270
 msgid "List all Messages"
-msgstr ""
+msgstr "Списък на всички съобщения"
 
 #: public_html/lists/admin/home.php:275 public_html/lists/admin/send_core.php:369
 msgid "processqueue"
@@ -769,7 +773,7 @@ msgstr "Предишен"
 
 #: public_html/lists/admin/connect.php:2070 public_html/lists/admin/inc/interfacelib.php:833
 msgid "Next"
-msgstr "Следващ"
+msgstr "Следващо"
 
 #: public_html/lists/admin/connect.php:2071
 msgid "Last Page"
@@ -2105,7 +2109,7 @@ msgstr "Запази промени"
 
 #: public_html/lists/admin/template.php:342 public_html/lists/admin/spageedit.php:278
 msgid "Send test message"
-msgstr ""
+msgstr "Изпрати съобщение тест"
 
 #: public_html/lists/admin/template.php:342 public_html/lists/admin/spageedit.php:278
 msgid "to email addresses"
@@ -2113,23 +2117,23 @@ msgstr ""
 
 #: public_html/lists/admin/template.php:343 public_html/lists/admin/send_core.php:950 public_html/lists/admin/spageedit.php:279
 msgid "(comma separate addresses - all must be existing subscribers)"
-msgstr ""
+msgstr "(разделени със запетаи адреси - всички трябва да са съществуващи абонати)"
 
 #: public_html/lists/admin/template.php:344 public_html/lists/admin/send_core.php:949 public_html/lists/admin/send_core.php:1245
 #: public_html/lists/admin/spageedit.php:280
 msgid "Send Test"
-msgstr ""
+msgstr "Изпрати тест"
 
 #: public_html/lists/admin/pageaction.php:16 public_html/lists/admin/messages.php:214 public_html/lists/admin/messages.php:229
 #: public_html/lists/admin/messages.php:240 public_html/lists/admin/tests/sendpage.php:33 public_html/lists/admin/tests/sendpage.php:41
 msgid "Failed"
-msgstr ""
+msgstr "Пропадна"
 
 #: public_html/lists/admin/templates.php:8 public_html/lists/admin/messages.php:146 public_html/lists/admin/eventlog.php:33
 #: public_html/lists/admin/list.php:61 public_html/lists/admin/user.php:269 public_html/lists/admin/admins.php:30
 #: public_html/lists/admin/admin.php:121
 msgid "Deleting"
-msgstr ""
+msgstr "Изтриване"
 
 #: public_html/lists/admin/templates.php:22
 msgid "No template have been defined"
@@ -2709,11 +2713,11 @@ msgstr ""
 #: public_html/lists/admin/userclicks.php:85 public_html/lists/admin/userclicks.php:103 public_html/lists/admin/userclicks.php:125
 #: public_html/lists/admin/mviews.php:134
 msgid "Sent"
-msgstr ""
+msgstr "Изпратен"
 
 #: public_html/lists/admin/messages.php:84
 msgid "draft"
-msgstr ""
+msgstr "чернова"
 
 #: public_html/lists/admin/messages.php:87
 msgid "static"
@@ -2862,7 +2866,7 @@ msgstr ""
 
 #: public_html/lists/admin/messages.php:488
 msgid "Mark All Sent"
-msgstr ""
+msgstr "Маркирай всичко като изпратено"
 
 #: public_html/lists/admin/editattributes.php:8
 msgid "No such attribute:"
@@ -2874,7 +2878,7 @@ msgstr ""
 
 #: public_html/lists/admin/editattributes.php:41
 msgid "Back to attributes"
-msgstr ""
+msgstr "Обрътно към атрибути"
 
 #: public_html/lists/admin/editattributes.php:44
 msgid "add new"
@@ -3061,7 +3065,7 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:384
 msgid "Please enter a from line."
-msgstr ""
+msgstr "Моля въведете ред \"От\"."
 
 #: public_html/lists/admin/send_core.php:386
 msgid "Please enter a message"
@@ -3099,7 +3103,7 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:475
 msgid "Sent test mail to"
-msgstr ""
+msgstr "Изпратен тестов имейл до"
 
 #: public_html/lists/admin/send_core.php:479
 msgid "success"
@@ -3119,7 +3123,7 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:530 public_html/lists/admin/send_core.php:559 public_html/lists/admin/send_core.php:670
 msgid "Content"
-msgstr ""
+msgstr "Съдържание"
 
 #: public_html/lists/admin/send_core.php:533
 msgid "Text"
@@ -3131,15 +3135,15 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:540
 msgid "Format"
-msgstr ""
+msgstr "Формат"
 
 #: public_html/lists/admin/send_core.php:543
 msgid "Attach"
-msgstr ""
+msgstr "Прикачи"
 
 #: public_html/lists/admin/send_core.php:546
 msgid "Scheduling"
-msgstr ""
+msgstr "Разписание"
 
 #: public_html/lists/admin/send_core.php:552 public_html/lists/admin/list.php:148 public_html/lists/admin/list.php:159
 #: public_html/lists/admin/user.php:491
@@ -3148,7 +3152,7 @@ msgstr "Списъци"
 
 #: public_html/lists/admin/send_core.php:580
 msgid "Finish"
-msgstr ""
+msgstr "Завършек"
 
 #: public_html/lists/admin/send_core.php:611
 msgid "What is prepare a message"
@@ -3156,19 +3160,19 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:659
 msgid "Campaign subject"
-msgstr ""
+msgstr "Тема на кампания"
 
 #: public_html/lists/admin/send_core.php:662
 msgid "From Line"
-msgstr ""
+msgstr "Ред \"От\""
 
 #: public_html/lists/admin/send_core.php:671
 msgid "Send a Webpage"
-msgstr ""
+msgstr "Изпращане уебстраница"
 
 #: public_html/lists/admin/send_core.php:672 public_html/lists/admin/send_core.php:836 public_html/lists/admin/send_core.php:837
 msgid "Compose Message"
-msgstr ""
+msgstr "Съчиняване съобщение"
 
 #: public_html/lists/admin/send_core.php:683
 msgid "Send a Webpage - URL"
@@ -3181,67 +3185,67 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:705
 msgid "Dates and times are relative to the Server Time"
-msgstr ""
+msgstr "Датите и времето са относно времето на изпращача"
 
 #: public_html/lists/admin/send_core.php:705
 msgid "Current Server Time is"
-msgstr ""
+msgstr "Текущото време на сървъра е"
 
 #: public_html/lists/admin/send_core.php:708
 msgid "Embargoed Until"
-msgstr ""
+msgstr "Задържане до"
 
 #: public_html/lists/admin/send_core.php:710 public_html/lists/admin/message.php:109
 msgid "Stop sending after"
-msgstr ""
+msgstr "Спиране изпращането след"
 
 #: public_html/lists/admin/send_core.php:717
 msgid "Repeat campaign every"
-msgstr ""
+msgstr "Повтаряне на всеки"
 
 #: public_html/lists/admin/send_core.php:723
 msgid "no repetition"
-msgstr ""
+msgstr "без повтаряне"
 
 #: public_html/lists/admin/send_core.php:728 public_html/lists/admin/send_core.php:769
 msgid "hour"
-msgstr ""
+msgstr "час"
 
 #: public_html/lists/admin/send_core.php:733 public_html/lists/admin/send_core.php:774
 msgid "day"
-msgstr ""
+msgstr "ден"
 
 #: public_html/lists/admin/send_core.php:738 public_html/lists/admin/send_core.php:779
 msgid "week"
-msgstr ""
+msgstr "седмица"
 
 #: public_html/lists/admin/send_core.php:743
 msgid "fortnight"
-msgstr ""
+msgstr "две седмици"
 
 #: public_html/lists/admin/send_core.php:749
 msgid "four weeks"
-msgstr ""
+msgstr "четири седмици"
 
 #: public_html/lists/admin/send_core.php:751
 msgid "Repeat Until"
-msgstr ""
+msgstr "Повтаряне до"
 
 #: public_html/lists/admin/send_core.php:758
 msgid "Requeue every"
-msgstr ""
+msgstr "Поднови опашка всеки"
 
 #: public_html/lists/admin/send_core.php:764
 msgid "do not requeue"
-msgstr ""
+msgstr "без подновяване"
 
 #: public_html/lists/admin/send_core.php:782
 msgid "Requeue Until"
-msgstr ""
+msgstr "Поднови опашка до"
 
 #: public_html/lists/admin/send_core.php:792
 msgid "Send as"
-msgstr ""
+msgstr "Изпращане като"
 
 #: public_html/lists/admin/send_core.php:822
 msgid "Use Template"
@@ -3337,31 +3341,31 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:949
 msgid " to email address(es)"
-msgstr ""
+msgstr "до имейл адрес(и)"
 
 #: public_html/lists/admin/send_core.php:963
 msgid "email to alert when sending of this message starts"
-msgstr ""
+msgstr "имейли, на които да се сигнализира, когато започне това изпращане"
 
 #: public_html/lists/admin/send_core.php:964 public_html/lists/admin/send_core.php:966
 msgid "separate multiple with a comma"
-msgstr ""
+msgstr "повече т един ги разделете със запетаи"
 
 #: public_html/lists/admin/send_core.php:965
 msgid "email to alert when sending of this message has finished"
-msgstr ""
+msgstr "имейли, на които да се сигнализира, когато приклучи това изпращане"
 
 #: public_html/lists/admin/send_core.php:972
 msgid "add Google Analytics tracking code"
-msgstr ""
+msgstr "добавяне код за проследяване от Google Analytics"
 
 #: public_html/lists/admin/send_core.php:981
 msgid "Reset click statistics"
-msgstr ""
+msgstr "Нулиране статискика за кликвания"
 
 #: public_html/lists/admin/send_core.php:991
 msgid "This is a test campaign"
-msgstr ""
+msgstr "Това е тестова кампания"
 
 #: public_html/lists/admin/send_core.php:998
 msgid "Estimated size of HTML email"
@@ -3382,19 +3386,19 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:1156
 msgid "subject missing"
-msgstr ""
+msgstr "липсва тема"
 
 #: public_html/lists/admin/send_core.php:1165
 msgid "message content missing"
-msgstr ""
+msgstr "липсва съдържание за съобщението"
 
 #: public_html/lists/admin/send_core.php:1172
 msgid "From missing"
-msgstr ""
+msgstr "Липсва \"От\""
 
 #: public_html/lists/admin/send_core.php:1198
 msgid "destination lists missing"
-msgstr ""
+msgstr "липсва таргет списък"
 
 #: public_html/lists/admin/send_core.php:1204
 msgid "Content contains click track links."
@@ -3406,11 +3410,11 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:1226
 msgid "Some required information is missing. The send button will be enabled when this is resolved."
-msgstr ""
+msgstr "Липсва необходима информация. Бутонът за изпращане ще стане достъпен когато тя се попълни."
 
 #: public_html/lists/admin/send_core.php:1232
 msgid "Save as draft"
-msgstr "Закази чернова"
+msgstr "Запази чернова"
 
 #: public_html/lists/admin/send_core.php:1234
 msgid "Save and continue editing"
@@ -3418,27 +3422,27 @@ msgstr "Запази и продължи редакция"
 
 #: public_html/lists/admin/send_core.php:1239
 msgid "Campaign Title"
-msgstr ""
+msgstr "Заглавие на кампания"
 
 #: public_html/lists/admin/send_core.php:1242
 msgid "Meta data"
-msgstr ""
+msgstr "Мета данни"
 
 #: public_html/lists/admin/usercheck.php:7
 msgid "Existing subscribers"
-msgstr ""
+msgstr "Съществуващи абонати"
 
 #: public_html/lists/admin/usercheck.php:8
 msgid "Non existing subscribers "
-msgstr ""
+msgstr "Не съществуващи абонати "
 
 #: public_html/lists/admin/usercheck.php:22
 msgid "key"
-msgstr ""
+msgstr "ключ"
 
 #: public_html/lists/admin/usercheck.php:39
 msgid "What is the type of information you want to check"
-msgstr ""
+msgstr "Какъв е типът информация, която искате да проверите"
 
 #: public_html/lists/admin/usercheck.php:40 public_html/lists/admin/users.php:371 public_html/databasestructure.php:27
 #: public_html/databasestructure.php:28
@@ -4747,7 +4751,7 @@ msgstr ""
 
 #: public_html/lists/admin/import1.php:139
 msgid "back"
-msgstr ""
+msgstr "обратно"
 
 #: public_html/lists/admin/import1.php:139
 msgid " to resubmit for real"
@@ -5884,7 +5888,7 @@ msgstr "Име за системни съобщения"
 
 #: public_html/lists/admin/defaultconfig.php:173
 msgid "Reply-to email address for system messages"
-msgstr ""
+msgstr "Отговор-до имейл адрес за системни съобщения"
 
 #: public_html/lists/admin/defaultconfig.php:184
 msgid "If there is only one visible list, should it be hidden in the page and automatically subscribe users who sign up"
@@ -7823,6 +7827,14 @@ msgstr "pagetitle:табло"
 msgid "pagetitlehover:home"
 msgstr "pagetitlehover:табло"
 
+#: public_html/databasestructure.php:198
+msgid "pagetitle:help"
+msgstr "pagetitle:помощ"
+
+#: public_html/databasestructure.php:199
+msgid "pagetitlehover:help"
+msgstr "pagetitlehover:помощ"
+
 #: public_html/databasestructure.php:200
 msgid "pagetitle:setup"
 msgstr ""
@@ -8041,11 +8053,11 @@ msgstr ""
 
 #: public_html/databasestructure.php:254
 msgid "pagetitle:messages"
-msgstr ""
+msgstr "pagetitle:съобщения"
 
 #: public_html/databasestructure.php:255
 msgid "pagetitlehover:messages"
-msgstr ""
+msgstr "pagetitlehover:съобщения"
 
 #: public_html/databasestructure.php:256
 msgid "pagetitle:message"

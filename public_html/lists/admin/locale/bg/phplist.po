@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-18 11:22+0200\n"
+"PO-Revision-Date: 2019-12-19 07:18+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -156,6 +156,14 @@ msgstr "Избери съществуваща чернова на съобщен
 #: public_html/lists/admin/send.php:99
 msgid "Draft messages"
 msgstr "Чернови на съобщения"
+
+#: public_html/lists/admin/send.php:103
+msgid "Choose an existing draft campaign to work on"
+msgstr "Изберете съществуваща чернова за да работите по нея"
+
+#: public_html/lists/admin/send.php:104
+msgid "Draft campaigns"
+msgstr "Чернови на кампании"
 
 #: public_html/lists/admin/send.php:106 public_html/lists/admin/message.php:90
 msgid "entered"
@@ -423,11 +431,11 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:261
 msgid "templates"
-msgstr ""
+msgstr "шаблони"
 
 #: public_html/lists/admin/home.php:263
 msgid "Configure Templates"
-msgstr ""
+msgstr "Конфигуриране шаблони"
 
 #: public_html/lists/admin/home.php:268 public_html/lists/admin/import3.php:161 public_html/lists/admin/import3.php:376
 msgid "messages"
@@ -470,7 +478,7 @@ msgstr "# отхвърлени"
 
 #: public_html/lists/admin/home.php:294 public_html/lists/admin/bouncemgt.php:9
 msgid "View Bounces"
-msgstr ""
+msgstr "Преглед откази"
 
 #: public_html/lists/admin/home.php:298
 msgid "Message Functions"
@@ -1076,7 +1084,7 @@ msgstr ""
 
 #: public_html/lists/admin/lib.php:1881 public_html/lists/admin/send_core.php:371
 msgid "view progress"
-msgstr ""
+msgstr "виж ход"
 
 #: public_html/lists/admin/lib.php:1883 public_html/lists/admin/lib.php:1894
 msgid "Error activating remote queue processing"
@@ -1172,11 +1180,11 @@ msgstr ""
 
 #: public_html/lists/admin/statsoverview.php:137
 msgid "View all campaigns"
-msgstr ""
+msgstr "Виж всечки кампании"
 
 #: public_html/lists/admin/statsoverview.php:143
 msgid "Campaign not found"
-msgstr ""
+msgstr "Не е намерена кампания"
 
 #: public_html/lists/admin/statsoverview.php:152 public_html/lists/admin/messages.php:11 public_html/lists/admin/messages.php:12
 #: public_html/lists/admin/send_core.php:694 public_html/lists/admin/userclicks.php:83 public_html/lists/admin/userclicks.php:101
@@ -1262,31 +1270,31 @@ msgstr ""
 #: public_html/lists/admin/sendemaillib.php:1016
 #, php-format
 msgid "Campaign %d suspended. Message too large"
-msgstr ""
+msgstr "Възпрени %d кампании. Съобщенията твърде дълги"
 
 #: public_html/lists/admin/sendemaillib.php:1018
 #, php-format
 msgid "Campaign %d suspended, message too large"
-msgstr ""
+msgstr "Възпрени %d кампании, съобщенията твърде дълги"
 
 #: public_html/lists/admin/sendemaillib.php:1056
 #, php-format
 msgid "Insufficient memory to add attachment to campaign %d %d - %d"
-msgstr ""
+msgstr "Недостатъчна памет за прикачване към кампании %d %d - %d"
 
 #: public_html/lists/admin/sendemaillib.php:1097
 #, php-format
 msgid "Error, when trying to send campaign %d the attachment (%s) could not be copied to the repository. Check for permissions."
-msgstr ""
+msgstr "Грешки при изпращане на кампании %d прикачените файлове (%s) не могат да се копират в хранилището. Проверете достъпа за запис."
 
 #: public_html/lists/admin/sendemaillib.php:1098 public_html/lists/admin/sendemaillib.php:1111
 msgid "phpList system error"
-msgstr ""
+msgstr "системна грешка в phpList"
 
 #: public_html/lists/admin/sendemaillib.php:1103
 #, php-format
 msgid "failed to open attachment (%s) to add to campaign %d"
-msgstr ""
+msgstr "неуспешно отваряне на прикачени (%s) за добавяне в кампания %d"
 
 #: public_html/lists/admin/sendemaillib.php:1109
 #, php-format
@@ -1536,7 +1544,7 @@ msgstr ""
 
 #: public_html/lists/admin/processbounces.php:240
 msgid "View Bounce"
-msgstr ""
+msgstr "Ви отказ"
 
 #: public_html/lists/admin/processbounces.php:310
 msgid "system message bounced, but unknown user"
@@ -2066,39 +2074,39 @@ msgstr ""
 
 #: public_html/lists/admin/template.php:278
 msgid "List of Templates"
-msgstr ""
+msgstr "Списък шаблони"
 
 #: public_html/lists/admin/template.php:286
 msgid "Title of this template"
-msgstr ""
+msgstr "Заглавие на този шаблон"
 
 #: public_html/lists/admin/template.php:290
 msgid "Content of the template."
-msgstr ""
+msgstr "Съдържание на шаблона."
 
 #: public_html/lists/admin/template.php:290
 msgid "The content should at least have <b>[CONTENT]</b> somewhere."
-msgstr ""
+msgstr "Съдържанието трябва да съдържа поне <b>[CONTENT]</b> някъде."
 
 #: public_html/lists/admin/template.php:290
 msgid "You can upload a template file or paste the text in the box below"
-msgstr ""
+msgstr "Вие можете да качите файл с шаблон или да поставите текст в полето долу"
 
 #: public_html/lists/admin/template.php:293
 msgid "Template file."
-msgstr ""
+msgstr "Файл с шаблон."
 
 #: public_html/lists/admin/template.php:316
 msgid "Check that all links have a full URL"
-msgstr ""
+msgstr "Проверка дали всички хипервръзки имат пълни URL-и"
 
 #: public_html/lists/admin/template.php:320
 msgid "Check that all images have a full URL"
-msgstr ""
+msgstr "Проверка дали всички изображения имат пълни URL-и"
 
 #: public_html/lists/admin/template.php:327
 msgid "Check that all external images exist"
-msgstr ""
+msgstr "Проверка дали всички външни изображения са налични"
 
 #: public_html/lists/admin/template.php:333 public_html/lists/admin/adminattributes.php:5 public_html/lists/admin/adminattributes.php:125
 #: public_html/lists/admin/list.php:281 public_html/lists/admin/user.php:452 public_html/lists/admin/user.php:483
@@ -2113,7 +2121,7 @@ msgstr "Изпрати съобщение тест"
 
 #: public_html/lists/admin/template.php:342 public_html/lists/admin/spageedit.php:278
 msgid "to email addresses"
-msgstr ""
+msgstr "до имейл адреси"
 
 #: public_html/lists/admin/template.php:343 public_html/lists/admin/send_core.php:950 public_html/lists/admin/spageedit.php:279
 msgid "(comma separate addresses - all must be existing subscribers)"
@@ -2137,7 +2145,7 @@ msgstr "Изтриване"
 
 #: public_html/lists/admin/templates.php:22
 msgid "No template have been defined"
-msgstr ""
+msgstr "Не са дефинирани шаблони"
 
 #: public_html/lists/admin/templates.php:28
 msgid "Existing templates"
@@ -2149,19 +2157,23 @@ msgstr "ID"
 
 #: public_html/lists/admin/templates.php:43
 msgid "Campaign Default"
-msgstr ""
+msgstr "Подразбиране за кампания"
 
 #: public_html/lists/admin/templates.php:45
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: public_html/lists/admin/templates.php:52
 msgid "Add new Template"
-msgstr ""
+msgstr "Добави нов шаблон"
 
 #: public_html/lists/admin/templates.php:56
 msgid "Add default system template"
-msgstr ""
+msgstr "Добави системен шаблон по подразбиране"
+
+#: public_html/lists/admin/templates.php:71
+msgid "Add templates from default selection"
+msgstr "Добави шаблон от избрани по подразбиране"
 
 #: public_html/lists/admin/adminattributes.php:15 public_html/lists/admin/defaults.php:50
 msgid "Name cannot be empty:"
@@ -2173,7 +2185,7 @@ msgstr "Името не е достатъчно уникално"
 
 #: public_html/lists/admin/adminattributes.php:82
 msgid "Existing attributes:"
-msgstr ""
+msgstr "Съществуващи атрибути:"
 
 #: public_html/lists/admin/adminattributes.php:84 public_html/lists/admin/attributes.php:339
 msgid "No Attributes have been defined yet"
@@ -2505,7 +2517,7 @@ msgstr ""
 
 #: public_html/lists/admin/members.php:346
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #: public_html/lists/admin/members.php:348
 msgid "What to do with \"Tagged\" users"
@@ -2581,7 +2593,7 @@ msgstr "неактивен"
 #: public_html/lists/admin/spage.php:70 public_html/lists/admin/spage.php:71 public_html/lists/admin/userhistory.php:72
 #: public_html/lists/admin/userhistory.php:92
 msgid "view"
-msgstr ""
+msgstr "виж"
 
 #: public_html/lists/admin/spage.php:74
 msgid "Add a new subscribe page"
@@ -2653,15 +2665,15 @@ msgstr ""
 
 #: public_html/lists/admin/suppressionlist.php:33
 msgid "Manage suppression list"
-msgstr ""
+msgstr "Управляване списък за възпиране"
 
 #: public_html/lists/admin/suppressionlist.php:34
 msgid "Make suppression permanent"
-msgstr ""
+msgstr "Оотбележи възпирането постоянно"
 
 #: public_html/lists/admin/suppressionlist.php:35
 msgid "Paste the emails to mark unconfirmed in this box, and click continue"
-msgstr ""
+msgstr "Поставете в това поле списък имейли, които да се отбележат като непотвърдени и щракнете “продължи”"
 
 #: public_html/lists/admin/tests.php:7
 msgid "phplist test suite"
@@ -2769,16 +2781,16 @@ msgstr ""
 
 #: public_html/lists/admin/messages.php:320 public_html/lists/admin/messages.php:323 public_html/lists/admin/userhistory.php:126
 msgid "Campaigns"
-msgstr ""
+msgstr "Кампании"
 
 #: public_html/lists/admin/messages.php:369 public_html/lists/admin/bouncerule.php:64 public_html/lists/admin/userclicks.php:185
 #: public_html/lists/admin/bounce.php:211 public_html/databasestructure.php:61
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #: public_html/lists/admin/messages.php:382
 msgid "Viewed"
-msgstr ""
+msgstr "Прегледано"
 
 #: public_html/lists/admin/messages.php:383
 msgid "Unique Views"
@@ -2825,7 +2837,7 @@ msgstr ""
 
 #: public_html/lists/admin/messages.php:456
 msgid "View"
-msgstr ""
+msgstr "Виж"
 
 #: public_html/lists/admin/messages.php:459
 msgid "statistics"
@@ -2858,7 +2870,7 @@ msgstr ""
 #: public_html/lists/admin/messages.php:480 public_html/lists/admin/bouncerule.php:59 public_html/lists/admin/bounce.php:145
 #: public_html/lists/admin/bouncerules.php:120
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #: public_html/lists/admin/messages.php:487
 msgid "Suspend All"
@@ -3341,7 +3353,7 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:949
 msgid " to email address(es)"
-msgstr "до имейл адрес(и)"
+msgstr " до имейл адрес(и)"
 
 #: public_html/lists/admin/send_core.php:963
 msgid "email to alert when sending of this message starts"
@@ -5365,11 +5377,11 @@ msgstr ""
 
 #: public_html/lists/admin/userclicks.php:181
 msgid "view user"
-msgstr ""
+msgstr "виж потребител"
 
 #: public_html/lists/admin/userclicks.php:187 public_html/lists/admin/mclicks.php:181 public_html/lists/admin/uclicks.php:118
 msgid "firstclick"
-msgstr ""
+msgstr "първо щракване"
 
 #: public_html/lists/admin/userclicks.php:188 public_html/lists/admin/mclicks.php:182 public_html/lists/admin/uclicks.php:119
 msgid "latestclick"
@@ -5780,7 +5792,7 @@ msgstr ""
 
 #: public_html/lists/admin/bounce.php:175
 msgid "Possible Actions:"
-msgstr ""
+msgstr "Възможни действия:"
 
 #: public_html/lists/admin/bounce.php:210
 msgid "Date"
@@ -6332,11 +6344,11 @@ msgstr ""
 
 #: public_html/lists/admin/index.php:331
 msgid "Your session timed out, please log in again"
-msgstr "Вашата сесия е изтегла, моля влезте отново"
+msgstr "Вашата сесия е изтекла, моля влезте отново"
 
 #: public_html/lists/admin/index.php:336
 msgid "Your session timed out, please login again"
-msgstr ""
+msgstr "Вашата сесия е изтекла, моля влезте отново"
 
 #: public_html/lists/admin/index.php:396
 msgid "goodbye"
@@ -6931,7 +6943,7 @@ msgstr ""
 
 #: public_html/lists/admin/bounces.php:154
 msgid "Campaign"
-msgstr ""
+msgstr "Кампания"
 
 #: public_html/lists/admin/inc/importlib.php:90
 msgid "Invalid email"
@@ -7981,11 +7993,11 @@ msgstr ""
 
 #: public_html/databasestructure.php:236
 msgid "pagetitle:send"
-msgstr ""
+msgstr "pagetitle:изпращане"
 
 #: public_html/databasestructure.php:237
 msgid "pagetitlehover:send"
-msgstr ""
+msgstr "pagetitlehover:изпращане"
 
 #: public_html/databasestructure.php:238
 msgid "pagetitle:preparesend"
@@ -8093,19 +8105,19 @@ msgstr ""
 
 #: public_html/databasestructure.php:264
 msgid "pagetitle:templates"
-msgstr ""
+msgstr "pagetitle:шаблони"
 
 #: public_html/databasestructure.php:265
 msgid "pagetitlehover:templates"
-msgstr ""
+msgstr "pagetitlehover:шаблони"
 
 #: public_html/databasestructure.php:266
 msgid "pagetitle:template"
-msgstr ""
+msgstr "pagetitle:шаблон"
 
 #: public_html/databasestructure.php:267
 msgid "pagetitlehover:template"
-msgstr ""
+msgstr "pagetitlehover:шаблон"
 
 #: public_html/databasestructure.php:268
 msgid "pagetitle:viewtemplate"
@@ -8445,8 +8457,8 @@ msgstr ""
 
 #: public_html/databasestructure.php:352
 msgid "pagetitle:suppressionlist"
-msgstr ""
+msgstr "pagetitle:списък възпиране"
 
 #: public_html/databasestructure.php:353
 msgid "pagetitlehover:suppressionlist"
-msgstr ""
+msgstr "pagetitlehover:списък възпиране"

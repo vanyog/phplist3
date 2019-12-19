@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-19 07:18+0200\n"
+"PO-Revision-Date: 2019-12-19 13:44+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -2151,6 +2151,14 @@ msgstr "Не са дефинирани шаблони"
 msgid "Existing templates"
 msgstr ""
 
+#: public_html/lists/admin/templates.php:31
+msgid "Campaign templates"
+msgstr "Шаблони за кампании"
+
+#: public_html/lists/admin/templates.php:32
+msgid "Template"
+msgstr "Шаблон"
+
 #: public_html/lists/admin/templates.php:37 public_html/lists/admin/bounce.php:209
 msgid "ID"
 msgstr "ID"
@@ -3265,31 +3273,31 @@ msgstr ""
 
 #: public_html/lists/admin/send_core.php:823
 msgid "select one"
-msgstr ""
+msgstr "избери един"
 
 #: public_html/lists/admin/send_core.php:824
 msgid "No template"
-msgstr ""
+msgstr "Няма шаблон"
 
 #: public_html/lists/admin/send_core.php:863
 msgid "Plain text version of message"
-msgstr ""
+msgstr "Съобщение като неформатиран текст"
 
 #: public_html/lists/admin/send_core.php:864
 msgid "generate from HTML"
-msgstr ""
+msgstr "генерирай от HTML"
 
 #: public_html/lists/admin/send_core.php:870 public_html/lists/admin/spageedit.php:197
 msgid "Footer"
-msgstr ""
+msgstr "Долен колонтитул"
 
 #: public_html/lists/admin/send_core.php:872
 msgid "forwardfooter"
-msgstr ""
+msgstr "долен колонтитул при препращане"
 
 #: public_html/lists/admin/send_core.php:879
 msgid "Add attachments to your campaign"
-msgstr ""
+msgstr "Прикрепи файл към кампания"
 
 #: public_html/lists/admin/send_core.php:881
 msgid "The upload has the following limits set by the server"
@@ -3373,7 +3381,7 @@ msgstr "добавяне код за проследяване от Google Analyt
 
 #: public_html/lists/admin/send_core.php:981
 msgid "Reset click statistics"
-msgstr "Нулиране статискика за кликвания"
+msgstr "Нулиране статискика за щраквания"
 
 #: public_html/lists/admin/send_core.php:991
 msgid "This is a test campaign"
@@ -4353,7 +4361,7 @@ msgstr "Импорт Атрибюти"
 
 #: public_html/lists/admin/import2.php:372
 msgid "select"
-msgstr ""
+msgstr "избери"
 
 #: public_html/lists/admin/import2.php:377
 msgid "Please identify the target of the following unknown columns"
@@ -6684,19 +6692,31 @@ msgstr ""
 
 #: public_html/lists/admin/defaultsystemtemplate.php:18
 msgid "The default system template already exists"
-msgstr ""
+msgstr "Системният подразбиращ се шаблон вече съществува"
 
 #: public_html/lists/admin/defaultsystemtemplate.php:19 public_html/lists/admin/defaultsystemtemplate.php:26
 msgid "Go back to templates"
-msgstr ""
+msgstr "Обратно към шаблони"
 
 #: public_html/lists/admin/defaultsystemtemplate.php:25
 msgid "The default system template has been added as template with ID"
-msgstr ""
+msgstr "Подразбиращия се системен шаблон беше добавен като шаблон с ID"
 
 #: public_html/lists/admin/defaultsystemtemplate.php:27
 msgid "Edit template"
-msgstr ""
+msgstr "Редактирай шаблон"
+
+#: public_html/lists/admin/defaultsystemtemplate.php:437
+msgid "Default templates suite"
+msgstr "Комплект системни шаблони"
+
+#: public_html/lists/admin/defaultsystemtemplate.php:441
+msgid "System template"
+msgstr "Системен шаблон"
+
+#: public_html/lists/admin/defaultsystemtemplate.php:442
+msgid "Simple responsive template"
+msgstr "Прост отзивчив шаблон"
 
 #: public_html/lists/admin/editlist.php:27
 msgid "You cannot create a new list because you have reached maximum number of lists."
@@ -7059,11 +7079,11 @@ msgstr ""
 
 #: public_html/lists/admin/uclicks.php:65
 msgid "Select URL to view"
-msgstr ""
+msgstr "Избери URL за отваряне"
 
 #: public_html/lists/admin/uclicks.php:69
 msgid "There are currently no statistics available"
-msgstr ""
+msgstr "В момента не е налична статистика"
 
 #: public_html/lists/admin/uclicks.php:77
 msgid "URL Click Statistics"
@@ -7071,15 +7091,15 @@ msgstr "URL статистики щраквания"
 
 #: public_html/lists/admin/uclicks.php:81
 msgid "Click details for a URL"
-msgstr ""
+msgstr "Данни за щракване на URL"
 
 #: public_html/lists/admin/uclicks.php:126
 msgid "view subscribers who clicked"
-msgstr ""
+msgstr "виж абонати, които са щраквали"
 
 #: public_html/lists/admin/uclicks.php:128 public_html/lists/admin/uclicks.php:141
 msgid "click rate"
-msgstr ""
+msgstr "темпо на щраквания"
 
 #: public_html/lists/admin/upgrade.php:37
 msgid "Your database version"

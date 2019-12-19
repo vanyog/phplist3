@@ -438,8 +438,8 @@ echo '<h2>'.s('Default templates suite').'</h2>';
 echo formStart();
 echo '
     <div> 
-      <input type="radio" name="template" value="systemTemplate" checked>System template<br>
-      <input type="radio" name="template" value="simpleResponsiveTemplate">Simple responsive template<br> 
-      <input type="submit" value="Select"  name="Submit">
+      <input type="radio" name="template" value="systemTemplate" checked>'.s('System template').'<br>
+      <input type="radio" name="template" value="simpleResponsiveTemplate">'.s('Simple responsive template').'<br> 
+      <input type="submit" value="'.s('Select').'"  name="Submit">
     </form>
 </div>';

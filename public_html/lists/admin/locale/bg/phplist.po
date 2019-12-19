@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-19 13:44+0200\n"
+"PO-Revision-Date: 2019-12-19 14:21+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -1138,11 +1138,11 @@ msgstr ""
 #: public_html/lists/admin/uclicks.php:66 public_html/lists/admin/uclicks.php:75 public_html/lists/admin/mviews.php:55
 #: public_html/lists/admin/mviews.php:126
 msgid "Download as CSV file"
-msgstr ""
+msgstr "Изтегляне CSV файл"
 
 #: public_html/lists/admin/statsoverview.php:85
 msgid "There are currently no campaigns to view"
-msgstr ""
+msgstr "В момента няма кампании за преглеждане"
 
 #: public_html/lists/admin/statsoverview.php:105 public_html/lists/admin/users.php:457
 msgid "bncs"
@@ -3196,12 +3196,12 @@ msgstr "Съчиняване съобщение"
 
 #: public_html/lists/admin/send_core.php:683
 msgid "Send a Webpage - URL"
-msgstr ""
+msgstr "Изпращане URL на страница в Интернет"
 
 #: public_html/lists/admin/send_core.php:702
 #, php-format
 msgid "phpList operates in the time zone \"%s\""
-msgstr ""
+msgstr "phpList е в часова зона \"%s\""
 
 #: public_html/lists/admin/send_core.php:705
 msgid "Dates and times are relative to the Server Time"
@@ -5498,11 +5498,11 @@ msgstr ""
 
 #: public_html/lists/admin/mclicks.php:57 public_html/lists/admin/mviews.php:66
 msgid "There are currently no messages to view"
-msgstr ""
+msgstr "В момента няма съобщения за показване"
 
 #: public_html/lists/admin/mclicks.php:59 public_html/lists/admin/mviews.php:69
 msgid "Available Messages"
-msgstr ""
+msgstr "Налични съобщения"
 
 #: public_html/lists/admin/mclicks.php:68 public_html/lists/admin/mclicks.php:121
 msgid "N/A"
@@ -6778,6 +6778,10 @@ msgstr "Не запазвай и назад към списъци"
 msgid "Top 50 domains with more than 5 emails"
 msgstr "Топ 50 домейни с повече от 5 имейла"
 
+#: public_html/lists/admin/domainstats.php:191
+msgid "Top 25 local-parts of email addresses"
+msgstr "Топ 25 домейни на имейл адреси"
+
 #: public_html/lists/admin/domainstats.php:30 public_html/lists/admin/domainstats.php:49 public_html/lists/admin/domainstats.php:53
 #: public_html/lists/admin/domainstats.php:72
 msgid "perc"
@@ -6788,6 +6792,8 @@ msgid ""
 "Once you have some more subscribers, this page will list statistics on the domains of your subscribers. It will list domains that have "
 "5 or more subscribers."
 msgstr ""
+"Когато ще имате повече абонати, на тази страница ще се покаже статистика за домейните на вашите абонати. Ще се изредят домейните, в "
+"които имате по 5 и повече абонати."
 
 #: public_html/lists/admin/domainstats.php:51
 msgid "num"
@@ -6795,7 +6801,7 @@ msgstr ""
 
 #: public_html/lists/admin/domainstats.php:66
 msgid "Top 25 pre-@ of email addresses"
-msgstr ""
+msgstr "Топ 25 на пред-@ част на имейл адреси"
 
 #: public_html/lists/admin/domainstats.php:70
 msgid "amount"

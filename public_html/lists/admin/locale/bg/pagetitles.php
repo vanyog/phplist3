@@ -38,9 +38,10 @@ switch ($page) {
   case 'admin': $page_title = 'Редактиране/добавяне администратор';break;
   case 'admins': $page_title = 'Списък администратори';break;
   case 'adminattributes': $page_title = 'Конфигуриране атрибути администратор';break;
-  case 'processbounces': $page_title = 'Retrieve bounces from server';break;
-  case 'bounces': $page_title = 'View bounces';break;
-  case 'bounce': $page_title = 'View a bounce';break;
+  case 'processbounces': $page_title = 'Извличане откази от сървър';break;
+  case 'bounces': $page_title = 'Преглед откази';break;
+  case 'bounce': $page_title = 'Преглед отказ';break;
+  case 'msgbounces': $page_title = 'Преглед откази по кампании'; break;
   case 'spageedit': $page_title = 'Редактиране страница на абонат';break;
   case 'spage': $page_title = 'Страници на абонати';break;
   case 'eventlog': $page_title = 'Журнал събития';break;

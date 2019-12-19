@@ -189,7 +189,7 @@ limit
     25', $GLOBALS['tables']['user']));
 
 $ls = new WebblerListing(s('Top 25 local-parts of email addresses'));
-$ls->setElementHeading('Local-part');
+$ls->setElementHeading(s('Local-part'));
 
 while ($row = Sql_Fetch_Array($req)) {
     if ($row['num'] > 0) {

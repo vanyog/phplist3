@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2019-12-19 14:21+0200\n"
+"PO-Revision-Date: 2019-12-20 01:21+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr "списък"
 
 #: public_html/lists/admin/listbounces.php:49 public_html/lists/admin/msgbounces.php:14
 msgid "# bounced"
-msgstr "# отхвърлени"
+msgstr "# отказани"
 
 #: public_html/lists/admin/listbounces.php:54
 msgid "None found"
@@ -111,11 +111,11 @@ msgstr "Изберете друг списък"
 #: public_html/lists/admin/listbounces.php:83
 #, php-format
 msgid "%s bounces to list %s"
-msgstr "%s отхвърлени в списък %s"
+msgstr "%s отказани в списък %s"
 
 #: public_html/lists/admin/listbounces.php:103
 msgid "Bounces on"
-msgstr "Отхвърляне включено"
+msgstr "Отказване включено"
 
 #: public_html/lists/admin/listbounces.php:113
 msgid "address"
@@ -123,7 +123,7 @@ msgstr "адрес"
 
 #: public_html/lists/admin/listbounces.php:114 public_html/lists/admin/msgbounces.php:71
 msgid "# bounces"
-msgstr "# отхвърлени"
+msgstr "# отказани"
 
 #: public_html/lists/admin/send.php:84
 msgid "All draft campaigns deleted"
@@ -195,10 +195,8 @@ msgid "Please select the lists you want to exclude from this campaign"
 msgstr "Моля изберете списък който искате да изключите от тази кампания"
 
 #: public_html/lists/admin/send.php:151
-msgid ""
-"The campaign will go to users who are a member of the lists above,     unless they are a member of one of the lists you select here."
-msgstr ""
-"Кампанията ще се насочи към абонатите в списъците отдолу                   освен ако не се запишат в списък който сте селектирали тук."
+msgid "The campaign will go to users who are a member of the lists above,     unless they are a member of one of the lists you select here."
+msgstr "Кампанията ще се насочи към абонатите в списъците отдолу                   освен ако не се запишат в списък който сте селектирали тук."
 
 #: public_html/lists/admin/home.php:11
 msgid "Your database is out of date, please make sure to upgrade"
@@ -215,7 +213,7 @@ msgstr "phplist версия"
 #: public_html/lists/admin/home.php:14 public_html/lists/admin/home.php:365 public_html/lists/admin/initialise.php:230
 #: public_html/lists/admin/upgrade.php:558
 msgid "Upgrade"
-msgstr "Надстрой"
+msgstr "Надграждане"
 
 #: public_html/lists/admin/home.php:19
 msgid "Database has not been initialised"
@@ -375,7 +373,7 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:198
 msgid "spage"
-msgstr "възраст"
+msgstr "абонат страница"
 
 #: public_html/lists/admin/home.php:200
 msgid "Configure Subscribe Pages"
@@ -467,14 +465,14 @@ msgstr ""
 
 #: public_html/lists/admin/home.php:287 public_html/lists/admin/bouncemgt.php:13
 msgid "Process Bounces"
-msgstr ""
+msgstr "Обработка откази"
 
 #: public_html/lists/admin/home.php:292 public_html/lists/admin/processbounces.php:387 public_html/lists/admin/processbounces.php:388
 #: public_html/lists/admin/reconcileusers.php:204 public_html/lists/admin/reconcileusers.php:214
 #: public_html/lists/admin/reconcileusers.php:483 public_html/lists/admin/reconcileusers.php:497 public_html/lists/admin/bounces.php:85
 #: public_html/lists/admin/bounces.php:134
 msgid "bounces"
-msgstr "# отхвърлени"
+msgstr "# отказани"
 
 #: public_html/lists/admin/home.php:294 public_html/lists/admin/bouncemgt.php:9
 msgid "View Bounces"
@@ -498,7 +496,7 @@ msgstr "Установяване "
 
 #: public_html/lists/admin/home.php:363
 msgid "upgrade"
-msgstr "надстрой"
+msgstr "надграждане"
 
 #: public_html/lists/admin/home.php:370
 msgid "dbcheck"
@@ -931,16 +929,16 @@ msgstr ""
 
 #: public_html/lists/admin/plugins.php:244
 msgid "initialise"
-msgstr ""
+msgstr "инициализиране"
 
 #: public_html/lists/admin/plugins.php:246
 msgid "Initialise"
-msgstr ""
+msgstr "Инициализиране"
 
 #: public_html/lists/admin/plugins.php:252 public_html/lists/admin/templates.php:38 public_html/lists/admin/spage.php:68
 #: public_html/lists/admin/editattributes.php:201 public_html/lists/admin/bouncerules.php:106 public_html/lists/admin/bounces.php:94
 msgid "delete"
-msgstr ""
+msgstr "изтрий"
 
 #: public_html/lists/admin/plugins.php:252
 msgid "delete this plugin"
@@ -994,23 +992,23 @@ msgstr "имейли в черен списък"
 
 #: public_html/lists/admin/lib.php:30
 msgid "delete subscriber and bounce"
-msgstr "изтрий абонат и отхвърли"
+msgstr "изтрий абонат и откажи"
 
 #: public_html/lists/admin/lib.php:31
 msgid "unconfirm subscriber and delete bounce"
-msgstr "отмени потвърден и премахни отхвърлен"
+msgstr "отмени потвърден и премахни отказан"
 
 #: public_html/lists/admin/lib.php:32
 msgid "blacklist subscriber and delete bounce"
-msgstr "абоната в черен списък и премахни отхвърлен"
+msgstr "абоната в черен списък и премахни отказан"
 
 #: public_html/lists/admin/lib.php:33
 msgid "blacklist email address and delete bounce"
-msgstr "имейл в черен списък и премахни отхвърлен"
+msgstr "имейл в черен списък и премахни отказан"
 
 #: public_html/lists/admin/lib.php:34
 msgid "delete bounce"
-msgstr "премахни отхвърлен"
+msgstr "премахни отказан"
 
 #: public_html/lists/admin/lib.php:48
 msgid "Unnamed List"
@@ -1115,9 +1113,7 @@ msgid "Sign up to receive news and updates about phpList "
 msgstr "Регистриране за получаване на новости и обновявания за phpList "
 
 #: public_html/lists/admin/lib.php:1909
-msgid ""
-"to make sure you are updated when new versions come out. Sometimes security bugs are found which make it important to upgrade. Traffic "
-"on the list is very low."
+msgid "to make sure you are updated when new versions come out. Sometimes security bugs are found which make it important to upgrade. Traffic on the list is very low."
 msgstr ""
 
 #: public_html/lists/admin/lib.php:1915
@@ -1211,7 +1207,7 @@ msgstr ""
 
 #: public_html/lists/admin/statsoverview.php:189 public_html/lists/admin/messages.php:389 public_html/lists/admin/mclicks.php:129
 msgid "Bounced"
-msgstr "# отхвърлени"
+msgstr "# отказани"
 
 #: public_html/lists/admin/statsoverview.php:195
 msgid "Opened"
@@ -1263,8 +1259,7 @@ msgid "Message too large (%s is over %s), suspending"
 msgstr ""
 
 #: public_html/lists/admin/sendemaillib.php:1013
-msgid ""
-"Warning: the final message exceeds the sending limit, this campaign will fail sending. Reduce the size by removing attachments or images"
+msgid "Warning: the final message exceeds the sending limit, this campaign will fail sending. Reduce the size by removing attachments or images"
 msgstr ""
 
 #: public_html/lists/admin/sendemaillib.php:1016
@@ -1366,9 +1361,7 @@ msgid "Mark new users as HTML:"
 msgstr ""
 
 #: public_html/lists/admin/import4.php:83
-msgid ""
-"If you check \"Overwrite Existing\", information about a user in the database will be replaced by the imported information. Users are "
-"matched by email."
+msgid "If you check \"Overwrite Existing\", information about a user in the database will be replaced by the imported information. Users are matched by email."
 msgstr ""
 
 #: public_html/lists/admin/import4.php:84
@@ -1482,9 +1475,7 @@ msgid "phpList is Open Source software"
 msgstr "phpList е софтуер с атворен код"
 
 #: public_html/lists/admin/community.php:17
-msgid ""
-"The concept behind open source is collaboration. A loosely organised network of many contributors where the whole is greater than the "
-"sum of its parts."
+msgid "The concept behind open source is collaboration. A loosely organised network of many contributors where the whole is greater than the sum of its parts."
 msgstr ""
 
 #: public_html/lists/admin/community.php:18
@@ -1496,8 +1487,7 @@ msgid "Get help with phpList"
 msgstr "Получаване на помощ за phpList"
 
 #: public_html/lists/admin/community.php:28
-msgid ""
-"To be written. In the meantime you can <a href=\"https://www.phplist.com/support\">visit the support section on the phpList website</a>"
+msgid "To be written. In the meantime you can <a href=\"https://www.phplist.com/support\">visit the support section on the phpList website</a>"
 msgstr ""
 
 #: public_html/lists/admin/community.php:32
@@ -1505,9 +1495,7 @@ msgid "Help out with phpList"
 msgstr "Помагане за phpList"
 
 #: public_html/lists/admin/community.php:33
-msgid ""
-"To be written. In the meantime you can <a href=\"https://www.phplist.com/developers\">visit the developers section on the phpList "
-"website</a>"
+msgid "To be written. In the meantime you can <a href=\"https://www.phplist.com/developers\">visit the developers section on the phpList website</a>"
 msgstr ""
 
 #: public_html/lists/admin/processbounces.php:9 public_html/lists/admin/initlanguages.php:8 public_html/lists/admin/readtestmail.php:29
@@ -1544,7 +1532,7 @@ msgstr ""
 
 #: public_html/lists/admin/processbounces.php:240
 msgid "View Bounce"
-msgstr "Ви отказ"
+msgstr "Виж отказ"
 
 #: public_html/lists/admin/processbounces.php:310
 msgid "system message bounced, but unknown user"
@@ -1877,8 +1865,8 @@ msgid "Delete will delete user and all listmemberships"
 msgstr ""
 
 #: public_html/lists/admin/reconcileusers.php:407 public_html/lists/admin/members.php:264 public_html/lists/admin/mclicks.php:84
-msgid "subscribers"
-msgstr "абонати"
+msgid "Subscribers"
+msgstr "Абонати"
 
 #: public_html/lists/admin/reconcileusers.php:408 public_html/lists/admin/admins.php:75
 msgid "found"
@@ -1926,7 +1914,7 @@ msgstr "Да сложите в черен списък всички абонат
 
 #: public_html/lists/admin/reconcileusers.php:499
 msgid "Note: this will use the total count of bounces on a subscriber, not consecutive bounces"
-msgstr "Бележка: това ще използва общия брой отхвърляния на абонат, не последователни отхвърляния"
+msgstr "Бележка: това ще използва общия брой отказвания на абонат, не последователни отказвания"
 
 #: public_html/lists/admin/reconcileusers.php:504
 msgid "Delete subscribers who have an invalid email address"
@@ -1938,7 +1926,7 @@ msgstr "Да се изтрият абонати, които са се регис
 
 #: public_html/lists/admin/reconcileusers.php:536
 msgid "Associate system bounces to subscriber profiles"
-msgstr "Свързване на системни отхвърляния с профили на абонати"
+msgstr "Свързване на системни отказвания с профили на абонати"
 
 #: public_html/lists/admin/reconcileusers.php:543
 msgid "Delete subscribers who are blacklisted because they unsubscribed"
@@ -2009,9 +1997,7 @@ msgid "Below is the list of images used in your template. If an image is current
 msgstr ""
 
 #: public_html/lists/admin/template.php:170
-msgid ""
-"This includes all images, also fully referenced ones, so you may choose not to upload some. If you upload images, they will be included "
-"in the campaigns that use this template."
+msgid "This includes all images, also fully referenced ones, so you may choose not to upload some. If you upload images, they will be included in the campaigns that use this template."
 msgstr ""
 
 #: public_html/lists/admin/template.php:181 public_html/lists/admin/template.php:185
@@ -2306,9 +2292,7 @@ msgid "Error, the API key is incorrect"
 msgstr ""
 
 #: public_html/lists/admin/hostedprocessqueuesetup.php:33
-msgid ""
-"Error, unable to connect to the phpList.com server for checking. Please verify that your webserver is able to connect to https://pqapi."
-"phplist.com"
+msgid "Error, unable to connect to the phpList.com server for checking. Please verify that your webserver is able to connect to https://pqapi.phplist.com"
 msgstr ""
 
 #: public_html/lists/admin/hostedprocessqueuesetup.php:33 public_html/lists/admin/hostedprocessqueuesetup.php:47
@@ -2333,7 +2317,7 @@ msgstr ""
 
 #: public_html/lists/admin/hostedprocessqueuesetup.php:60
 msgid "Continue setup"
-msgstr ""
+msgstr "Продължи установяване"
 
 #: public_html/lists/admin/massremove.php:24 public_html/lists/admin/suppressionlist.php:22
 msgid "Blacklisted by"
@@ -2366,8 +2350,7 @@ msgid "Paste the emails to remove in this box, and click continue"
 msgstr ""
 
 #: public_html/lists/admin/subscribelib2.php:95
-msgid ""
-"\n"
+msgid "\n"
 "-------------------------------------------------------------------------------- \n"
 "    This is a notification of a possible spam attack to your phplist subscribe page.\n"
 "    The data submitted has been copied below, so you can check whether this was actually the case.\n"
@@ -2415,7 +2398,7 @@ msgstr "Покажи %s до %s"
 
 #: public_html/lists/admin/msgbounces.php:31
 msgid " Total"
-msgstr ""
+msgstr " Общо"
 
 #: public_html/lists/admin/msgbounces.php:70 public_html/lists/admin/usercheck.php:21
 msgid "email"
@@ -2459,9 +2442,7 @@ msgid "subscribers were deleted from this list"
 msgstr ""
 
 #: public_html/lists/admin/members.php:161
-msgid ""
-"The \"list of all subscribers\" is not a real list, but it gives you access to all subscribers in your system. There may be more "
-"subscribers in your system than are members of your lists."
+msgid "The \"list of all subscribers\" is not a real list, but it gives you access to all subscribers in your system. There may be more subscribers in your system than are members of your lists."
 msgstr ""
 
 #: public_html/lists/admin/members.php:168
@@ -2605,7 +2586,11 @@ msgstr "виж"
 
 #: public_html/lists/admin/spage.php:74
 msgid "Add a new subscribe page"
-msgstr ""
+msgstr "Добави нова страница за абониране"
+
+#: public_html/lists/admin/spage.php:105
+msgid "reset styling to default"
+msgstr "връщане стила по подразбиране"
 
 #: public_html/lists/admin/login.php:5
 msgid "default login is"
@@ -2815,7 +2800,7 @@ msgstr ""
 #: public_html/lists/admin/messages.php:429 public_html/lists/admin/uclicks.php:133 public_html/lists/admin/uclicks.php:134
 #: public_html/lists/admin/uclicks.php:139 public_html/lists/admin/uclicks.php:141
 msgid "total"
-msgstr ""
+msgstr "общо"
 
 #: public_html/lists/admin/messages.php:429 public_html/lists/admin/send_core.php:796 public_html/lists/admin/userclicks.php:192
 #: public_html/lists/admin/mclicks.php:90 public_html/lists/admin/mclicks.php:178
@@ -2849,31 +2834,37 @@ msgstr "Виж"
 
 #: public_html/lists/admin/messages.php:459
 msgid "statistics"
-msgstr ""
+msgstr "статистика"
+
+msgid "Config"
+msgstr "Конфиг"
+
+msgid "Dashboard"
+msgstr "Табло"
 
 #: public_html/lists/admin/messages.php:459 public_html/lists/admin/subscriberstats.php:6
 msgid "Statistics"
-msgstr ""
+msgstr "Статистика"
 
 #: public_html/lists/admin/messages.php:463
 msgid "Mark&nbsp;sent"
-msgstr ""
+msgstr "Отбележи&nbsp;изпратено"
 
 #: public_html/lists/admin/messages.php:463
 msgid "Mark sent"
-msgstr ""
+msgstr "Отбележи изпратено"
 
 #: public_html/lists/admin/messages.php:464 public_html/lists/admin/messages.php:474
 msgid "Edit"
-msgstr ""
+msgstr "Редактирай"
 
 #: public_html/lists/admin/messages.php:469
 msgid "Are you sure you want to delete this campaign?"
-msgstr ""
+msgstr "Сигурни ли сте, че искате да изтриете тази кампания?"
 
 #: public_html/lists/admin/messages.php:471
 msgid "delete this campaign"
-msgstr ""
+msgstr "изтрий тази кампания"
 
 #: public_html/lists/admin/messages.php:480 public_html/lists/admin/bouncerule.php:59 public_html/lists/admin/bounce.php:145
 #: public_html/lists/admin/bouncerules.php:120
@@ -2882,7 +2873,7 @@ msgstr "Действие"
 
 #: public_html/lists/admin/messages.php:487
 msgid "Suspend All"
-msgstr ""
+msgstr "Задръж всички"
 
 #: public_html/lists/admin/messages.php:488
 msgid "Mark All Sent"
@@ -2926,12 +2917,10 @@ msgstr ""
 
 #: public_html/lists/admin/editattributes.php:131
 msgid "Cannot delete"
-msgstr ""
+msgstr "Не може да се изтрие"
 
 #: public_html/lists/admin/editattributes.php:133
-msgid ""
-"The following subscriber(s) are dependent on this value<br />Update the subscriber profiles to not use this attribute value and try "
-"again"
+msgid "The following subscriber(s) are dependent on this value<br />Update the subscriber profiles to not use this attribute value and try again"
 msgstr ""
 
 #: public_html/lists/admin/editattributes.php:138
@@ -3024,9 +3013,7 @@ msgid "Send Campaign"
 msgstr "Изпрати кампания"
 
 #: public_html/lists/admin/send_core.php:146
-msgid ""
-"You should not paste the results of a test message back into the editor<br/>This will break the click-track statistics, and overload "
-"the server."
+msgid "You should not paste the results of a test message back into the editor<br/>This will break the click-track statistics, and overload the server."
 msgstr ""
 
 #: public_html/lists/admin/send_core.php:188
@@ -3836,6 +3823,26 @@ msgstr ""
 msgid "updated %d language terms"
 msgstr ""
 
+#: public_html/lists/admin/actions/updatetranslation.php:30
+#, php-format
+msgid "Language translations"
+msgstr "Преводи на азици"
+
+#: public_html/lists/admin/actions/updatetranslation.php:31
+#, php-format
+msgid "Language"
+msgstr "Език"
+
+#: public_html/lists/admin/actions/updatetranslation.php:74
+#, php-format
+msgid "Code"
+msgstr "Код"
+
+#: public_html/lists/admin/actions/updatetranslation.php:75
+#, php-format
+msgid "Translation status"
+msgstr "Състояние на превод"
+
 #: public_html/lists/admin/actions/updatetranslation.php:31
 msgid "Network error updating language, please try again later"
 msgstr ""
@@ -4298,9 +4305,7 @@ msgstr ""
 
 #: public_html/lists/admin/import2.php:37
 #, php-format
-msgid ""
-"The maximum POST size is smaller than the maximum upload filesize. If your upload file is too large, import will fail. See the PHP "
-"documentation at <a href=\"%s\">%s</a>"
+msgid "The maximum POST size is smaller than the maximum upload filesize. If your upload file is too large, import will fail. See the PHP documentation at <a href=\"%s\">%s</a>"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:49
@@ -4324,9 +4329,7 @@ msgid "No file was specified. Maybe the file is too big? "
 msgstr ""
 
 #: public_html/lists/admin/import2.php:87
-msgid ""
-"Please upload a plain text file only. You cannot use a spreadsheet. You need to export the data from the spreadsheet into a TAB "
-"delimited text file"
+msgid "Please upload a plain text file only. You cannot use a spreadsheet. You need to export the data from the spreadsheet into a TAB delimited text file"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:97 public_html/lists/admin/import1.php:50
@@ -4343,8 +4346,7 @@ msgid "Cannot read %s. file is not readable !"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:134 public_html/lists/admin/import1.php:88
-msgid ""
-"Something went wrong while uploading the file. Empty file received. Maybe the file is too big, or you have no permissions to read it."
+msgid "Something went wrong while uploading the file. Empty file received. Maybe the file is too big, or you have no permissions to read it."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:348
@@ -4429,14 +4431,7 @@ msgid "automatically added"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:680
-msgid ""
-"The file you upload will need to have the attributes of the records on    the first line.     Make sure that the email column is called "
-"\"email\" and not something like \"e-mail\" or     \"Email Address\".     Case is not important.          If you have a column called "
-"\"Foreign Key\", this will be used for synchronisation between an     external database and the phpList database. The foreignkey will "
-"take precedence when matching     an existing subscriber. This will slow down the import process. If you use this, it is allowed to "
-"have     records without email, but an \"Invalid Email\" will be created instead. You can then do     a search on \"invalid email\" to "
-"find those records. Maximum size of a foreign key is 100.          Warning: the file needs to be plain text. Do not upload binary files "
-"like a Word Document.     "
+msgid "The file you upload will need to have the attributes of the records on    the first line.     Make sure that the email column is called \"email\" and not something like \"e-mail\" or     \"Email Address\".     Case is not important.          If you have a column called \"Foreign Key\", this will be used for synchronisation between an     external database and the phpList database. The foreignkey will take precedence when matching     an existing subscriber. This will slow down the import process. If you use this, it is allowed to have     records without email, but an \"Invalid Email\" will be created instead. You can then do     a search on \"invalid email\" to find those records. Maximum size of a foreign key is 100.          Warning: the file needs to be plain text. Do not upload binary files like a Word Document.     "
 msgstr ""
 
 #: public_html/lists/admin/import2.php:682 public_html/lists/admin/importadmin.php:313
@@ -4445,9 +4440,7 @@ msgstr ""
 
 #: public_html/lists/admin/import2.php:684
 #, php-format
-msgid ""
-"The following limits are set by your server:<br/>Maximum size of a total data sent to server: %s<br/>Maximum size of each individual "
-"file: %s"
+msgid "The following limits are set by your server:<br/>Maximum size of a total data sent to server: %s<br/>Maximum size of each individual file: %s"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:685
@@ -4472,9 +4465,7 @@ msgid "default is line break"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:689 public_html/lists/admin/import1.php:217 public_html/lists/admin/importadmin.php:316
-msgid ""
-"If you check \"Test Output\", you will get the list of parsed emails on screen, and the database will not be filled with the "
-"information. This is useful to find out whether the format of your file is correct. It will only show the first 50 records."
+msgid "If you check \"Test Output\", you will get the list of parsed emails on screen, and the database will not be filled with the information. This is useful to find out whether the format of your file is correct. It will only show the first 50 records."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:690 public_html/lists/admin/importadmin.php:317
@@ -4482,9 +4473,7 @@ msgid "Test output"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:691
-msgid ""
-"If you check \"Show Warnings\", you will get warnings for invalid records. Warnings will only be shown if you check \"Test Output\". "
-"They will be ignored when actually importing. "
+msgid "If you check \"Show Warnings\", you will get warnings for invalid records. Warnings will only be shown if you check \"Test Output\". They will be ignored when actually importing. "
 msgstr ""
 
 #: public_html/lists/admin/import2.php:692
@@ -4492,9 +4481,7 @@ msgid "Show Warnings"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:693
-msgid ""
-"If you check \"Omit Invalid\", invalid records will not be added. Invalid records are records without an email. Any other attributes "
-"will be added automatically, ie if the country of a record is not found, it will be added to the list of countries."
+msgid "If you check \"Omit Invalid\", invalid records will not be added. Invalid records are records without an email. Any other attributes will be added automatically, ie if the country of a record is not found, it will be added to the list of countries."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:694
@@ -4502,11 +4489,7 @@ msgid "Omit Invalid"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:695
-msgid ""
-"Assign Invalid will be used to create an email for subscribers with an invalid email address. You can use values between [ and ] to "
-"make up a value for the email. For example if your import file contains a column \"First Name\" and one called \"Last Name\", you can "
-"use \"[first name] [last name]\" to construct a new value for the email for this subscriber containing their first name and last name. "
-"The value [number] can be used to insert the sequence number for importing."
+msgid "Assign Invalid will be used to create an email for subscribers with an invalid email address. You can use values between [ and ] to make up a value for the email. For example if your import file contains a column \"First Name\" and one called \"Last Name\", you can use \"[first name] [last name]\" to construct a new value for the email for this subscriber containing their first name and last name. The value [number] can be used to insert the sequence number for importing."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:697
@@ -4514,9 +4497,7 @@ msgid "Assign Invalid"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:698
-msgid ""
-"If you check \"Overwrite Existing\", information about a subscriber in the database will be replaced by the imported information. "
-"Subscribers are matched by email or foreign key."
+msgid "If you check \"Overwrite Existing\", information about a subscriber in the database will be replaced by the imported information. Subscribers are matched by email or foreign key."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:699 public_html/lists/admin/import3.php:263 public_html/lists/admin/import3.php:264
@@ -4524,9 +4505,7 @@ msgid "Overwrite Existing"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:700
-msgid ""
-"If you check \"Retain Old Email\", a conflict of two emails being the same will keep the old one and add \"duplicate\" to the new one. "
-"If you don&quot;t check it, the old one will get \"duplicate\" and the new one will take precedence."
+msgid "If you check \"Retain Old Email\", a conflict of two emails being the same will keep the old one and add \"duplicate\" to the new one. If you don&quot;t check it, the old one will get \"duplicate\" and the new one will take precedence."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:701
@@ -4534,9 +4513,7 @@ msgid "Retain Old User Email"
 msgstr ""
 
 #: public_html/lists/admin/import2.php:707 public_html/lists/admin/import1.php:221
-msgid ""
-"If you choose \"send notification email\" the subscribers you are adding will be sent the request for confirmation of subscription to "
-"which they will have to reply. This is recommended, because it will identify invalid emails."
+msgid "If you choose \"send notification email\" the subscribers you are adding will be sent the request for confirmation of subscription to which they will have to reply. This is recommended, because it will identify invalid emails."
 msgstr ""
 
 #: public_html/lists/admin/import2.php:708
@@ -4577,7 +4554,7 @@ msgstr ""
 
 #: public_html/lists/admin/eventlog.php:62 public_html/lists/admin/eventlog.php:102
 msgid "Events"
-msgstr ""
+msgstr "Събития"
 
 #: public_html/lists/admin/eventlog.php:79
 msgid "Are you sure you want to delete all events older than 2 months?"
@@ -4585,7 +4562,7 @@ msgstr ""
 
 #: public_html/lists/admin/eventlog.php:81
 msgid "Delete all (&gt; 2 months old)"
-msgstr ""
+msgstr "Изтрий всички (&gt; 2 месеца)"
 
 #: public_html/lists/admin/eventlog.php:84
 msgid "Are you sure you want to delete all events matching this filter?"
@@ -4597,11 +4574,11 @@ msgstr ""
 
 #: public_html/lists/admin/eventlog.php:97
 msgid "Filter"
-msgstr ""
+msgstr "Филтър"
 
 #: public_html/lists/admin/eventlog.php:99
 msgid "Exclude filter"
-msgstr ""
+msgstr "Изключващ филтър"
 
 #: public_html/lists/admin/eventlog.php:112
 msgid "page"
@@ -4748,9 +4725,7 @@ msgid "No file was specified. Maybe the file is too big?"
 msgstr ""
 
 #: public_html/lists/admin/import1.php:58
-msgid ""
-"Please upload a plain text file only. You cannot use a spreadsheet. You can only upload a plain text file with one email address per "
-"line."
+msgid "Please upload a plain text file only. You cannot use a spreadsheet. You can only upload a plain text file with one email address per line."
 msgstr ""
 
 #: public_html/lists/admin/import1.php:81
@@ -4782,10 +4757,7 @@ msgid "adding_users"
 msgstr ""
 
 #: public_html/lists/admin/import1.php:213
-msgid ""
-"The file you upload will need to contain the emails you want to add to these lists. Anything after the email will be added as attribute "
-"\"Info\" of the Subscriber. You can specify the rest of the attributes of these subscribers below. Warning: the file needs to be plain "
-"text. Do not upload binary files like a Word Document."
+msgid "The file you upload will need to contain the emails you want to add to these lists. Anything after the email will be added as attribute \"Info\" of the Subscriber. You can specify the rest of the attributes of these subscribers below. Warning: the file needs to be plain text. Do not upload binary files like a Word Document."
 msgstr ""
 
 #: public_html/lists/admin/import1.php:215
@@ -4854,9 +4826,7 @@ msgid "send notification email"
 msgstr ""
 
 #: public_html/lists/admin/import3.php:267
-msgid ""
-"the users you are adding will be sent the request for confirmation of subscription to which they will have to reply. This is "
-"recommended, because it will identify invalid emails."
+msgid "the users you are adding will be sent the request for confirmation of subscription to which they will have to reply. This is recommended, because it will identify invalid emails."
 msgstr ""
 
 #: public_html/lists/admin/import3.php:268
@@ -4864,9 +4834,7 @@ msgid "Send&nbsp;Notification&nbsp;email&nbsp;"
 msgstr ""
 
 #: public_html/lists/admin/import3.php:269
-msgid ""
-"There are two ways to add the names of the users,  either one attribute for the entire name or two attributes, one for first name and "
-"one for last name. If you use &quot;two attributes&quot;, the name will be split after the first space."
+msgid "There are two ways to add the names of the users,  either one attribute for the entire name or two attributes, one for first name and one for last name. If you use &quot;two attributes&quot;, the name will be split after the first space."
 msgstr ""
 
 #: public_html/lists/admin/import3.php:271
@@ -5049,23 +5017,23 @@ msgstr ""
 
 #: public_html/lists/admin/statsmgt.php:7
 msgid "Overview"
-msgstr ""
+msgstr "Преглед"
 
 #: public_html/lists/admin/statsmgt.php:8
 msgid "View Clicks by URL"
-msgstr ""
+msgstr "Щраквания по URL"
 
 #: public_html/lists/admin/statsmgt.php:9
 msgid "View Clicks by Message"
-msgstr ""
+msgstr "Щраквания по съобщения"
 
 #: public_html/lists/admin/statsmgt.php:10
 msgid "View Opens by Message"
-msgstr ""
+msgstr "Отваряния по съобщения"
 
 #: public_html/lists/admin/statsmgt.php:11
 msgid "Domain Statistics"
-msgstr ""
+msgstr "Статистика домейни"
 
 #: public_html/lists/admin/statsmgt.php:15 public_html/lists/admin/upgrade.php:541
 msgid "The clicktracking system has changed"
@@ -5229,10 +5197,7 @@ msgid "The translations are provided by the phpList community (that includes you
 msgstr "Преводът се прави от общността на phpList (в което сте и Вие :-) )"
 
 #: public_html/lists/admin/about.php:42
-msgid ""
-"The <a href=\"http://translate.phplist.com/\" target=\"translate\">translation site</a> runs <a href=\"http://translate.sourceforge.net/"
-"\" target=\"pootle\">Pootle</a> an Open Source translation tool, provided by <a href=\"http://translatehouse.org\" target="
-"\"translatehouse\">Translate House</a>"
+msgid "The <a href=\"http://translate.phplist.com/\" target=\"translate\">translation site</a> runs <a href=\"http://translate.sourceforge.net/\" target=\"pootle\">Pootle</a> an Open Source translation tool, provided by <a href=\"http://translatehouse.org\" target=\"translatehouse\">Translate House</a>"
 msgstr ""
 
 #: public_html/lists/admin/about.php:43
@@ -5240,12 +5205,8 @@ msgid "Acknowledgements"
 msgstr ""
 
 #: public_html/lists/admin/about.php:45
-msgid ""
-"The developers wish to thank the many contributors to this system, who have helped out with bug reports, suggestions, donations, "
-"feature requests, sponsoring, translations and many other contributions."
-msgstr ""
-"Разработчиците биха искали да благодарят на многото подръжници на тази система, които са допринесли със съобщаване за програмни грешки, "
-"предложения, дарения, опръчване на нови функции, спонсориране, превеждане и много други приноси."
+msgid "The developers wish to thank the many contributors to this system, who have helped out with bug reports, suggestions, donations, feature requests, sponsoring, translations and many other contributions."
+msgstr "Разработчиците биха искали да благодарят на многото подръжници на тази система, които са допринесли със съобщаване за програмни грешки, предложения, дарения, опръчване на нови функции, спонсориране, превеждане и много други приноси."
 
 #: public_html/lists/admin/about.php:47
 msgid "Portions of the system include"
@@ -5273,9 +5234,7 @@ msgid "No more candidate rules"
 msgstr ""
 
 #: public_html/lists/admin/bouncerule.php:35
-msgid ""
-"Updating the regular expression of this rule caused an Sql conflict<br/>This is probably because there is already a rule like that. Do "
-"you want to delete this rule instead?"
+msgid "Updating the regular expression of this rule caused an Sql conflict<br/>This is probably because there is already a rule like that. Do you want to delete this rule instead?"
 msgstr ""
 
 #: public_html/lists/admin/bouncerule.php:44
@@ -5300,7 +5259,7 @@ msgstr ""
 
 #: public_html/lists/admin/bouncerule.php:56 public_html/lists/admin/bounce.php:144 public_html/lists/admin/bouncerules.php:119
 msgid "Regular Expression"
-msgstr ""
+msgstr "Регулярен израз"
 
 #: public_html/lists/admin/bouncerule.php:58
 msgid "Created By"
@@ -5312,7 +5271,7 @@ msgstr ""
 
 #: public_html/lists/admin/bouncerule.php:72 public_html/lists/admin/bounce.php:151 public_html/lists/admin/bouncerules.php:126
 msgid "Memo for this rule"
-msgstr ""
+msgstr "Напомняща бележка за това правило"
 
 #: public_html/lists/admin/bouncerule.php:79
 msgid "related bounces"
@@ -5377,10 +5336,6 @@ msgstr ""
 
 #: public_html/lists/admin/userclicks.php:134
 msgid "Clicks of a subscriber"
-msgstr ""
-
-#: public_html/lists/admin/userclicks.php:149 public_html/lists/admin/mclicks.php:127 public_html/lists/admin/users.php:345
-msgid "Subscribers"
 msgstr ""
 
 #: public_html/lists/admin/userclicks.php:181
@@ -5698,8 +5653,7 @@ msgstr "Добави нов атрибут"
 
 #: public_html/lists/admin/attributes.php:427
 msgid "Warning: Storage of sensitive personal data such as race, health, and sexual orientation is regulated by some data protection laws"
-msgstr ""
-"Внимание: Съхраняването на чувствителни потребителски данни като: раса, здраве и сексуална ориентация се регулира от закони за защита"
+msgstr "Внимание: Съхраняването на чувствителни потребителски данни като: раса, здраве и сексуална ориентация се регулира от закони за защита"
 
 #: public_html/lists/admin/attributes.php:427
 msgid "Read more"
@@ -5756,7 +5710,7 @@ msgstr ""
 
 #: public_html/lists/admin/bounce.php:152 public_html/lists/admin/bouncerules.php:127
 msgid "Add new Rule"
-msgstr ""
+msgstr "Добави ново правило"
 
 #: public_html/lists/admin/bounce.php:161
 msgid "For subscriber with email"
@@ -5967,9 +5921,7 @@ msgid "URL for forwarding messages"
 msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:318
-msgid ""
-"<h3>Thanks, you have been added to our newsletter</h3><p>You will receive an email to confirm your subscription. Please click the link "
-"in the email to confirm</p>"
+msgid "<h3>Thanks, you have been added to our newsletter</h3><p>You will receive an email to confirm your subscription. Please click the link in the email to confirm</p>"
 msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:319 public_html/lists/admin/spageedit.php:204
@@ -6025,13 +5977,11 @@ msgid "Message subscribers receive when they have changed their details"
 msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:483
-msgid ""
-"Part of the message that is sent to their new email address when subscribers change their information, and the email address has changed"
+msgid "Part of the message that is sent to their new email address when subscribers change their information, and the email address has changed"
 msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:500
-msgid ""
-"Part of the message that is sent to their old email address when subscribers change their information, and the email address has changed"
+msgid "Part of the message that is sent to their old email address when subscribers change their information, and the email address has changed"
 msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:507
@@ -6272,7 +6222,7 @@ msgstr ""
 
 #: public_html/lists/admin/initialise.php:222
 msgid "phpList Setup"
-msgstr ""
+msgstr "phpList - установяване"
 
 #: public_html/lists/admin/initialise.php:230
 msgid "Maybe you want to"
@@ -6448,9 +6398,7 @@ msgid "No file was specified."
 msgstr ""
 
 #: public_html/lists/admin/importadmin.php:49
-msgid ""
-"Some characters that are not valid have been found. These might be delimiters. Please check the file and select the right delimiter. "
-"Character found:"
+msgid "Some characters that are not valid have been found. These might be delimiters. Please check the file and select the right delimiter. Character found:"
 msgstr ""
 
 #: public_html/lists/admin/importadmin.php:79
@@ -6530,10 +6478,7 @@ msgid "Import some more administrators"
 msgstr ""
 
 #: public_html/lists/admin/importadmin.php:312
-msgid ""
-"   The file you upload will need to contain the administrators you want to add to the system. The columns need to have the following "
-"headers: email, loginname, password. Any other columns will be added as admin attributes.  Warning: the file needs to be plain text. Do "
-"not upload binary files like a Word Document.   "
+msgid "   The file you upload will need to contain the administrators you want to add to the system. The columns need to have the following headers: email, loginname, password. Any other columns will be added as admin attributes.  Warning: the file needs to be plain text. Do not upload binary files like a Word Document.   "
 msgstr ""
 
 #: public_html/lists/admin/importadmin.php:318
@@ -6543,6 +6488,10 @@ msgstr ""
 #: public_html/lists/admin/importadmin.php:331
 msgid "Do Import"
 msgstr ""
+
+#: public_html/lists/admin/setup.php:18
+msgid "Step"
+msgstr "Стъпка"
 
 #: public_html/lists/admin/setup.php:19 public_html/lists/admin/setup.php:35 public_html/lists/admin/setup.php:50
 #: public_html/lists/admin/setup.php:66 public_html/lists/admin/setup.php:78 public_html/lists/admin/setup.php:89
@@ -6556,7 +6505,7 @@ msgstr ""
 
 #: public_html/lists/admin/setup.php:52
 msgid "Verify Settings"
-msgstr ""
+msgstr "Проверка настройки"
 
 #: public_html/lists/admin/setup.php:65
 msgid "Configure attributes"
@@ -6564,15 +6513,15 @@ msgstr "Конфигуриране на атрибути"
 
 #: public_html/lists/admin/setup.php:77
 msgid "Create public lists"
-msgstr ""
+msgstr "Създаване публични списъци"
 
 #: public_html/lists/admin/setup.php:88
 msgid "Create a subscribe page"
-msgstr ""
+msgstr "Създаване страница за абониране"
 
 #: public_html/lists/admin/setup.php:99 public_html/lists/admin/editlist.php:100
 msgid "Add some subscribers"
-msgstr "Добави някакви абонати"
+msgstr "Добавяне на абонати"
 
 #: public_html/lists/admin/setup.php:114
 msgid "Congratulations, phpList is set up, you are ready to start mailing"
@@ -6584,7 +6533,7 @@ msgstr "Стартирай кампания за съобщения"
 
 #: public_html/lists/admin/setup.php:118
 msgid "configuration steps"
-msgstr ""
+msgstr "стъпки за конфигуриране"
 
 #: public_html/lists/admin/userhistory.php:9 public_html/lists/admin/userhistory.php:43
 msgid "no such User"
@@ -6596,7 +6545,7 @@ msgstr ""
 
 #: public_html/lists/admin/userhistory.php:65 public_html/lists/admin/userhistory.php:128
 msgid "Bounces"
-msgstr "# отхвърлени"
+msgstr "# отказани"
 
 #: public_html/lists/admin/userhistory.php:73
 msgid "msg"
@@ -6624,7 +6573,7 @@ msgstr ""
 
 #: public_html/lists/admin/userhistory.php:113
 msgid "bounce"
-msgstr "# отхвърлени"
+msgstr "# отказани"
 
 #: public_html/lists/admin/userhistory.php:118 public_html/lists/admin/userhistory.php:119 public_html/lists/admin/userhistory.php:120
 msgid "average"
@@ -6782,18 +6731,18 @@ msgstr "Топ 50 домейни с повече от 5 имейла"
 msgid "Top 25 local-parts of email addresses"
 msgstr "Топ 25 домейни на имейл адреси"
 
+#: public_html/lists/admin/domainstats.php:192
+msgid "Local-part"
+msgstr "Домейн-част"
+
 #: public_html/lists/admin/domainstats.php:30 public_html/lists/admin/domainstats.php:49 public_html/lists/admin/domainstats.php:53
 #: public_html/lists/admin/domainstats.php:72
 msgid "perc"
 msgstr ""
 
 #: public_html/lists/admin/domainstats.php:37
-msgid ""
-"Once you have some more subscribers, this page will list statistics on the domains of your subscribers. It will list domains that have "
-"5 or more subscribers."
-msgstr ""
-"Когато ще имате повече абонати, на тази страница ще се покаже статистика за домейните на вашите абонати. Ще се изредят домейните, в "
-"които имате по 5 и повече абонати."
+msgid "Once you have some more subscribers, this page will list statistics on the domains of your subscribers. It will list domains that have 5 or more subscribers."
+msgstr "Когато ще имате повече абонати, на тази страница ще се покаже статистика за домейните на вашите абонати. Ще се изредят домейните, в които имате по 5 и повече абонати."
 
 #: public_html/lists/admin/domainstats.php:51
 msgid "num"
@@ -6858,7 +6807,7 @@ msgstr ""
 
 #: public_html/lists/admin/bouncerules.php:62 public_html/lists/admin/bouncerules.php:64
 msgid "candidate"
-msgstr ""
+msgstr "кандидат"
 
 #: public_html/lists/admin/bouncerules.php:74
 msgid "Bounce Regular Expressions"
@@ -6866,7 +6815,7 @@ msgstr ""
 
 #: public_html/lists/admin/bouncerules.php:76
 msgid "No Rules found"
-msgstr ""
+msgstr "Не са намерени правила"
 
 #: public_html/lists/admin/bouncerules.php:83
 msgid "rule"
@@ -6902,7 +6851,7 @@ msgstr ""
 
 #: public_html/lists/admin/bouncerules.php:116
 msgid "add a new rule"
-msgstr ""
+msgstr "добавяне ново правило"
 
 #: public_html/lists/admin/bounces.php:8
 #, php-format
@@ -6953,7 +6902,7 @@ msgstr ""
 
 #: public_html/lists/admin/bounces.php:116
 msgid "view bounces by list"
-msgstr ""
+msgstr "преглед откази от списък"
 
 #: public_html/lists/admin/bounces.php:125
 msgid "no unidentified bounces available"
@@ -7048,27 +6997,26 @@ msgstr ""
 
 #: public_html/lists/admin/bouncemgt.php:8
 msgid "List Bounce Rules"
-msgstr ""
+msgstr "Списък правила за отказ"
 
 #: public_html/lists/admin/bouncemgt.php:10
 msgid "View Bounces per list"
-msgstr ""
+msgstr "Преглед откази по списък"
 
 #: public_html/lists/admin/bouncemgt.php:11
 msgid "Check Current Bounce Rules"
-msgstr ""
+msgstr "Проверка текущи правила за отказ"
+
+#: public_html/lists/admin/bouncemgt.php:12
+msgid "View Bounces per campaign"
+msgstr "Преглед откази по кампании"
 
 #: public_html/lists/admin/bouncemgt.php:17
-msgid ""
-"You currently have no rules defined.      You can click \"Generate Bounce Rules\" in order to auto-generate rules from your existing "
-"bounces.      This will results in a lot of rules which you will need to review and activate.      It will however, not catch every "
-"single bounce, so it will be necessary to add new rules over      time when new bounces come in."
-msgstr ""
+msgid "You currently have no rules defined.      You can click \"Generate Bounce Rules\" in order to auto-generate rules from your existing bounces.      This will results in a lot of rules which you will need to review and activate.      It will however, not catch every single bounce, so it will be necessary to add new rules over      time when new bounces come in."
+msgstr "Вие в момента нямате дефинирани правила. Може да щракнете \"Генерирай правила за отказване\" за да генерирате автоматично правилаот съществуващите отказвания. В резултат ще се получат много правила, които ще трябва да прегледате и активирате. Обаче това няма да хваневсяко отделно отказване, и ще трябва да добавите нови правила, в бъдеще когато възникнат нови онхвърляния."
 
 #: public_html/lists/admin/bouncemgt.php:19
-msgid ""
-"You have already defined bounce rules in your system.      Be careful with generating new ones, because these may interfere with the "
-"ones that exist."
+msgid "You have already defined bounce rules in your system.      Be careful with generating new ones, because these may interfere with the ones that exist."
 msgstr ""
 
 #: public_html/lists/admin/bouncemgt.php:21
@@ -7117,7 +7065,7 @@ msgstr ""
 
 #: public_html/lists/admin/upgrade.php:46
 msgid "Your database is already the correct version, there is no need to upgrade"
-msgstr ""
+msgstr "Вашата база данни вече е в коректната версия, няма нужда от надграждане"
 
 #: public_html/lists/admin/upgrade.php:48
 msgid "update Top Level Domains"
@@ -7161,9 +7109,7 @@ msgstr ""
 
 #: public_html/lists/admin/upgrade.php:558
 #, php-format
-msgid ""
-"When you are ready click %s Depending on the size of your database, this may take quite a while. Please make sure not to interrupt the "
-"process, once it started."
+msgid "When you are ready click %s Depending on the size of your database, this may take quite a while. Please make sure not to interrupt the process, once it started."
 msgstr ""
 
 #: public_html/lists/admin/spageedit.php:98
@@ -7289,8 +7235,7 @@ msgid "If you do not choose a list here, all public lists will be displayed."
 msgstr ""
 
 #: public_html/lists/admin/spageedit.php:344
-msgid ""
-"If you choose one list only, a checkbox for this list will not be displayed and the subscriber will automatically be added to this list."
+msgid "If you choose one list only, a checkbox for this list will not be displayed and the subscriber will automatically be added to this list."
 msgstr ""
 
 #: public_html/lists/admin/catlists.php:40
@@ -7391,7 +7336,7 @@ msgstr "Дали е потлърдил ръчно"
 
 #: public_html/databasestructure.php:16
 msgid "Number of bounces"
-msgstr "Брой отхвърляния"
+msgstr "Брой отказвания"
 
 #: public_html/databasestructure.php:18
 msgid "Last Modified"
@@ -7875,11 +7820,11 @@ msgstr "pagetitlehover:помощ"
 
 #: public_html/databasestructure.php:200
 msgid "pagetitle:setup"
-msgstr ""
+msgstr "pagetitle:установяване"
 
 #: public_html/databasestructure.php:201
 msgid "pagetitlehover:setup"
-msgstr ""
+msgstr "pagetitlehover:установяване"
 
 #: public_html/databasestructure.php:202
 msgid "pagetitle:about"
@@ -7891,11 +7836,11 @@ msgstr "pagetitlehover:относно"
 
 #: public_html/databasestructure.php:204
 msgid "pagetitle:attributes"
-msgstr "pagetitle:атрибути"
+msgstr "pagetitle:Конфигуриране на атрибути"
 
 #: public_html/databasestructure.php:205
 msgid "pagetitlehover:attributes"
-msgstr "pagetitlehover:атрибути"
+msgstr "pagetitlehover:Създаване, редактиране и променяне на атрибути на абонатите"
 
 #: public_html/databasestructure.php:206
 msgid "pagetitle:stresstest"
@@ -7907,19 +7852,15 @@ msgstr ""
 
 #: public_html/databasestructure.php:208
 msgid "pagetitle:list"
-msgstr "pagetitle:списък"
+msgstr "pagetitle:Списъци от абонати"
 
 #: public_html/databasestructure.php:209
 msgid "pagetitlehover:list"
-msgstr "pagetitlehover:списък"
+msgstr "pagetitlehover:Списъци, в които могат да се регистрират абонати"
 
 #: public_html/databasestructure.php:210
 msgid "pagetitle:config"
-msgstr ""
-
-#: public_html/databasestructure.php:211
-msgid "pagetitlehover:config"
-msgstr ""
+msgstr "pagetitle:конфигуриране"
 
 #: public_html/databasestructure.php:212
 msgid "pagetitle:catlists"
@@ -7995,35 +7936,35 @@ msgstr ""
 
 #: public_html/databasestructure.php:230
 msgid "pagetitle:import"
-msgstr "pagetitle:импорт"
+msgstr "pagetitle:Импорт на имейли"
 
 #: public_html/databasestructure.php:231
 msgid "pagetitlehover:import"
-msgstr "pagetitlehover:импорт"
+msgstr "pagetitlehover:Импортиране на абонати в базата данни"
 
 #: public_html/databasestructure.php:232
 msgid "pagetitle:export"
-msgstr "pagetitle:експорт"
+msgstr "pagetitle:Експорт на абонати"
 
 #: public_html/databasestructure.php:233
 msgid "pagetitlehover:export"
-msgstr "pagetitlehover:експорт"
+msgstr "pagetitlehover:Изтегляне на абонати от системата"
 
 #: public_html/databasestructure.php:234
 msgid "pagetitle:initialise"
-msgstr ""
+msgstr "pagetitle:инициализиране"
 
 #: public_html/databasestructure.php:235
 msgid "pagetitlehover:initialise"
-msgstr ""
+msgstr "pagetitlehover:инициализиране"
 
 #: public_html/databasestructure.php:236
 msgid "pagetitle:send"
-msgstr "pagetitle:изпращане"
+msgstr "pagetitle:Изпращане на кампания"
 
 #: public_html/databasestructure.php:237
 msgid "pagetitlehover:send"
-msgstr "pagetitlehover:изпращане"
+msgstr "pagetitlehover:Създаване на кампания, която да се изпрати на абонатите"
 
 #: public_html/databasestructure.php:238
 msgid "pagetitle:preparesend"
@@ -8051,19 +7992,19 @@ msgstr ""
 
 #: public_html/databasestructure.php:244
 msgid "pagetitle:users"
-msgstr "pagetitle:потребители"
+msgstr "pagetitle:Търсене потребители"
 
 #: public_html/databasestructure.php:245
 msgid "pagetitlehover:users"
-msgstr "pagetitlehover:потребители"
+msgstr "pagetitlehover:Търсене на потребители в системата"
 
 #: public_html/databasestructure.php:246
 msgid "pagetitle:reconcileusers"
-msgstr "pagetitle:обработка абонати"
+msgstr "pagetitle:Обработка абонати"
 
 #: public_html/databasestructure.php:247
 msgid "pagetitlehover:reconcileusers"
-msgstr "pagetitlehover:обработка абонати"
+msgstr "pagetitlehover:Няколко функции за почистване на базата данни за абонати"
 
 #: public_html/databasestructure.php:248
 msgid "pagetitle:user"
@@ -8091,11 +8032,11 @@ msgstr ""
 
 #: public_html/databasestructure.php:254
 msgid "pagetitle:messages"
-msgstr "pagetitle:съобщения"
+msgstr "pagetitle:Списък кампании"
 
 #: public_html/databasestructure.php:255
 msgid "pagetitlehover:messages"
-msgstr "pagetitlehover:съобщения"
+msgstr "pagetitlehover:Преглеждане на списъка кампании"
 
 #: public_html/databasestructure.php:256
 msgid "pagetitle:message"
@@ -8123,19 +8064,19 @@ msgstr ""
 
 #: public_html/databasestructure.php:262
 msgid "pagetitle:upgrade"
-msgstr ""
+msgstr "pagetitle:надграждане"
 
 #: public_html/databasestructure.php:263
 msgid "pagetitlehover:upgrade"
-msgstr ""
+msgstr "pagetitlehover:надграждане"
 
 #: public_html/databasestructure.php:264
 msgid "pagetitle:templates"
-msgstr "pagetitle:шаблони"
+msgstr "pagetitle:Шаблони за кампании"
 
 #: public_html/databasestructure.php:265
 msgid "pagetitlehover:templates"
-msgstr "pagetitlehover:шаблони"
+msgstr "pagetitlehover:Преглед и управляване на шаблони за кампании, изпращани в HTML формат"
 
 #: public_html/databasestructure.php:266
 msgid "pagetitle:template"
@@ -8219,19 +8160,19 @@ msgstr ""
 
 #: public_html/databasestructure.php:286
 msgid "pagetitle:spage"
-msgstr ""
+msgstr "pagetitle:страница абониране"
 
 #: public_html/databasestructure.php:287
 msgid "pagetitlehover:spage"
-msgstr ""
+msgstr "pagetitlehover:страница абониране"
 
 #: public_html/databasestructure.php:288
 msgid "pagetitle:eventlog"
-msgstr ""
+msgstr "pagetitle:журнал събития"
 
 #: public_html/databasestructure.php:289
 msgid "pagetitlehover:eventlog"
-msgstr ""
+msgstr "pagetitlehover:журнал събития"
 
 #: public_html/databasestructure.php:290
 msgid "pagetitle:getrss"
@@ -8283,19 +8224,19 @@ msgstr "pagetitlehover:изход"
 
 #: public_html/databasestructure.php:302
 msgid "pagetitle:mclicks"
-msgstr ""
+msgstr "pagetitle:Щраквания в съобщения"
 
 #: public_html/databasestructure.php:303
 msgid "pagetitlehover:mclicks"
-msgstr ""
+msgstr "pagetitlehover:Статистика за абонатите, които са щраквали линковете в съобщенията"
 
 #: public_html/databasestructure.php:304
 msgid "pagetitle:uclicks"
-msgstr ""
+msgstr "pagetitle:щраквания URL"
 
 #: public_html/databasestructure.php:305
 msgid "pagetitlehover:uclicks"
-msgstr ""
+msgstr "pagetitlehover:щраквания URL"
 
 #: public_html/databasestructure.php:306
 msgid "pagetitle:massunconfirm"
@@ -8315,51 +8256,51 @@ msgstr ""
 
 #: public_html/databasestructure.php:310
 msgid "pagetitle:usermgt"
-msgstr "pagetitle:управление потребители"
+msgstr "pagetitle:Управляване на потребители"
 
 #: public_html/databasestructure.php:311
 msgid "pagetitlehover:usermgt"
-msgstr "pagetitlehover:управление потребители"
+msgstr "pagetitlehover:Обичайни функции за управляване на потребители"
 
 #: public_html/databasestructure.php:312
 msgid "pagetitle:bouncemgt"
-msgstr ""
+msgstr "pagetitle:управление откази"
 
 #: public_html/databasestructure.php:313
 msgid "pagetitlehover:bouncemgt"
-msgstr ""
+msgstr "pagetitlehover:управление откази"
 
 #: public_html/databasestructure.php:314
 msgid "pagetitle:domainstats"
-msgstr ""
+msgstr "pagetitle:статистика домейни"
 
 #: public_html/databasestructure.php:315
 msgid "pagetitlehover:domainstats"
-msgstr ""
+msgstr "pagetitlehover:статистика домейни"
 
 #: public_html/databasestructure.php:316
 msgid "pagetitle:mviews"
-msgstr ""
+msgstr "pagetitle:Отваряния на съобщения"
 
 #: public_html/databasestructure.php:317
 msgid "pagetitlehover:mviews"
-msgstr ""
+msgstr "pagetitlehover:Преглеждане кой е отварял изпратените съобщения"
 
 #: public_html/databasestructure.php:318
 msgid "pagetitle:statsmgt"
-msgstr ""
+msgstr "pagetitle:управление статистика"
 
 #: public_html/databasestructure.php:319
 msgid "pagetitlehover:statsmgt"
-msgstr ""
+msgstr "pagetitlehover:управление статистика"
 
 #: public_html/databasestructure.php:320
 msgid "pagetitle:statsoverview"
-msgstr ""
+msgstr "pagetitle:Обща статистика"
 
 #: public_html/databasestructure.php:321
 msgid "pagetitlehover:statsoverview"
-msgstr ""
+msgstr "pagetitlehover:Обобщена статистика на последните няколко, изпратени кампании"
 
 #: public_html/databasestructure.php:322
 msgid "pagetitle:subscriberstats"
@@ -8371,11 +8312,11 @@ msgstr ""
 
 #: public_html/databasestructure.php:324
 msgid "pagetitle:dbcheck"
-msgstr ""
+msgstr "pagetitle:проверка БД"
 
 #: public_html/databasestructure.php:325
 msgid "pagetitlehover:dbcheck"
-msgstr ""
+msgstr "pagetitlehover:проверка БД"
 
 #: public_html/databasestructure.php:326
 msgid "pagetitle:importadmin"
@@ -8403,27 +8344,27 @@ msgstr ""
 
 #: public_html/databasestructure.php:332
 msgid "pagetitle:listbounces"
-msgstr "pagetitle:отхвърляния"
+msgstr "pagetitle:Преглед отказвания в списъци"
 
 #: public_html/databasestructure.php:333
 msgid "pagetitlehover:listbounces"
-msgstr "pagetitlehover:отхвърляния"
+msgstr "pagetitlehover:Преглеждане на отказаните имейли по списъци абонати"
 
 #: public_html/databasestructure.php:334
 msgid "pagetitle:bouncerules"
-msgstr ""
+msgstr "pagetitle:правила за отказване"
 
 #: public_html/databasestructure.php:335
 msgid "pagetitlehover:bouncerules"
-msgstr ""
+msgstr "pagetitlehover:правила за отказване"
 
 #: public_html/databasestructure.php:336
 msgid "pagetitle:bouncerule"
-msgstr ""
+msgstr "pagetitle:правило за отказване"
 
 #: public_html/databasestructure.php:337
 msgid "pagetitlehover:bouncerule"
-msgstr ""
+msgstr "pagetitlehover:правило за отказване"
 
 #: public_html/databasestructure.php:338
 msgid "pagetitle:checkbouncerules"
@@ -8451,19 +8392,19 @@ msgstr ""
 
 #: public_html/databasestructure.php:344
 msgid "pagetitle:updatetranslation"
-msgstr ""
+msgstr "pagetitle:обновяване преводи"
 
 #: public_html/databasestructure.php:345
 msgid "pagetitlehover:updatetranslation"
-msgstr ""
+msgstr "pagetitlehover:обновяване преводи"
 
 #: public_html/databasestructure.php:346
 msgid "pagetitle:reindex"
-msgstr ""
+msgstr "pagetitle:реиндексиране БД"
 
 #: public_html/databasestructure.php:347
 msgid "pagetitlehover:reindex"
-msgstr ""
+msgstr "pagetitlehover:реиндексиране БД"
 
 #: public_html/databasestructure.php:348
 msgid "pagetitle:plugins"
@@ -8483,8 +8424,37 @@ msgstr ""
 
 #: public_html/databasestructure.php:352
 msgid "pagetitle:suppressionlist"
-msgstr "pagetitle:списък възпиране"
+msgstr "pagetitle:Списък възпиране"
 
 #: public_html/databasestructure.php:353
 msgid "pagetitlehover:suppressionlist"
-msgstr "pagetitlehover:списък възпиране"
+msgstr "pagetitlehover:Списък възпиране"
+
+#: public_html/databasestructure.php:354
+msgid "pagetitle:msgbounces"
+msgstr "pagetitle:отказване съобщения"
+
+#: public_html/databasestructure.php:355
+msgid "pagetitlehover:msgbounces"
+msgstr "pagetitlehover:отказване съобщения"
+
+#: public_html/databasestructure.php:356
+msgid "pagetitle:system"
+msgstr "pagetitle:система"
+
+#: public_html/databasestructure.php:358
+msgid "pagetitle:statistics"
+msgstr "pagetitle:статистика"
+
+#: public_html/databasestructure.php:360
+msgid "pagetitle:campaigns"
+msgstr "pagetitle:кампании"
+
+#: public_html/databasestructure.php:362
+msgid "pagetitle:dashboard"
+msgstr "pagetitle:табло"
+
+#: public_html/databasestructure.php:363
+msgid "pagetitlehover:dashboard"
+msgstr "pagetitlehover:Главна страница за администриране"
+

@@ -1,4 +1,4 @@
-﻿# liste af attributer der kan være brugbare.
+# liste af attributer der kan være brugbare.
 # filens format: alt efter symbolet # er ignoreret.
 # den første linie uden # bliver navnet på denne attribut.
 # alt andet betragtes som værdier som bliver anvendt.

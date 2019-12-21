@@ -323,7 +323,7 @@ if (!$some) {
     echo $ls->display('', 'draggable');
 }
 /*
-  echo '<table class="x" border="0">
+  echo '<table class="x">
       <tr>
         <td>'.s('No').'</td>
         <td>'.s('Name').'</td>

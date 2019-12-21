@@ -261,7 +261,7 @@ function sendEmail($messageid, $email, $hash, $htmlpref = 0, $rssitems = array()
       Michiel Dethmers, phpList Ltd 2003 - 2013
     */
     if (!EMAILTEXTCREDITS) {
-        $html['signature'] = $PoweredByImage; //'<div align="center" id="signature"><a href="https://www.phplist.com"><img src="powerphplist.png" width=88 height=31 title="Powered by PHPlist" alt="Powered by PHPlist" border="0" /></a></div>';
+        $html['signature'] = $PoweredByImage; //'<div align="center" id="signature"><a href="https://www.phplist.com"><img src="powerphplist.png" width=88 height=31 title="Powered by PHPlist" alt="Powered by PHPlist"></a></div>';
         // oops, accidentally became spyware, never intended that, so take it out again :-)
         $html['signature'] = preg_replace('/src=".*power-phplist.png"/', 'src="powerphplist.png"', $html['signature']);
     } else {
@@ -416,15 +416,15 @@ function sendEmail($messageid, $email, $hash, $htmlpref = 0, $rssitems = array()
     if (ALWAYS_ADD_USERTRACK) {
         if (stripos($htmlmessage, '</body>')) {
             $htmlmessage = str_replace('</body>',
-                '<img src="'.$GLOBALS['public_scheme'].'://'.$website.$GLOBALS['pageroot'].'/ut.php?u='.$hash.'&amp;m='.$messageid.'" width="1" height="1" border="0" alt="" /></body>',
+                '<img src="'.$GLOBALS['public_scheme'].'://'.$website.$GLOBALS['pageroot'].'/ut.php?u='.$hash.'&amp;m='.$messageid.'" width="1" height="1" alt="" /></body>',
                 $htmlmessage);
         } else {
-            $htmlmessage .= '<img src="'.$GLOBALS['public_scheme'].'://'.$website.$GLOBALS['pageroot'].'/ut.php?u='.$hash.'&amp;m='.$messageid.'" width="1" height="1" border="0" alt="" />';
+            $htmlmessage .= '<img src="'.$GLOBALS['public_scheme'].'://'.$website.$GLOBALS['pageroot'].'/ut.php?u='.$hash.'&amp;m='.$messageid.'" width="1" height="1" alt="" />';
         }
     } else {
         //# can't use str_replace or str_ireplace, because those replace all, and we only want to replace one
         $htmlmessage = preg_replace('/\[USERTRACK\]/i',
-            '<img src="'.$GLOBALS['public_scheme'].'://'.$website.$GLOBALS['pageroot'].'/ut.php?u='.$hash.'&amp;m='.$messageid.'" width="1" height="1" border="0" alt="" />',
+            '<img src="'.$GLOBALS['public_scheme'].'://'.$website.$GLOBALS['pageroot'].'/ut.php?u='.$hash.'&amp;m='.$messageid.'" width="1" height="1" alt="" />',
             $htmlmessage, 1);
     }
     // make sure to only include usertrack once, otherwise the stats would go silly

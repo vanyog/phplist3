@@ -188,10 +188,10 @@ function ok()
     </SCRIPT>
   </HEAD>
   <BODY bottommargin="5" leftmargin="5" topmargin="5" rightmargin="5">
-<TABLE class="fck1" cellspacing="1" cellpadding="1" border="0" width="100%" class="dlg" height="100%">
+<TABLE class="fck1" cellspacing="1" cellpadding="1" width="100%" class="dlg" height="100%">
   <TR height="100%">
     <TD>
-      <TABLE class="fck2" cellspacing="0" cellpadding="0" width="100%" border="0" height="100%">
+      <TABLE class="fck2" cellspacing="0" cellpadding="0" width="100%" height="100%">
         <TR>
           <TD width="45%" valign="top">
             <table class="fck3" cellpadding="0" cellspacing="0" height="100%" width="100%">

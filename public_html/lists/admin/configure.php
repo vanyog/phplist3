@@ -63,7 +63,7 @@ foreach ($default_config as $item => $details) {
     $configTypes[$details['type']][] = $item;
     $configCategories[strtolower($details['category'])][] = $item;
 }
-//var_dump($configCategories);
+//var_dump($configCategories); die;
 //var_dump($configTypes);
 
 echo formStart(' class="configForm" enctype="multipart/form-data" ');
@@ -132,7 +132,7 @@ if (empty($id)) {
     foreach ($configCategories as $configCategory => $configItems) {
         $some = 0;
         $categoryHTML = '<fieldset id="' . sanitiseId($configCategory) . '">';
-        $categoryHTML .= '<legend>' . s('%s settings',$configCategory) . '</legend>';
+        $categoryHTML .= '<legend>' . s('%s settings',configCategoryDisplay($configCategory)) . '</legend>';
 
         foreach ($configItems as $configItem) {
             $dbvalue = getConfig($configItem);
@@ -200,4 +200,17 @@ if (empty($id)) {
     echo '</form>';
 } else {
     include dirname(__FILE__).'/actions/configure.php';
+}
+
+function configCategoryDisplay($c){
+if($c=='general') return s('general');
+if($c=='system') return s('system');
+if($c=='security') return s('security');
+if($c=='reporting') return s('reporting');
+if($c=='campaign') return s('campaign');
+if($c=='transactional') return s('transactional');
+if($c=='subscription-ui') return s('subscription-ui');
+if($c=='list-organisation') return s('list-organisation');
+if($c=='subscription') return s('subscription');
+return $c;
 }

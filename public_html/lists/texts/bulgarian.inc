@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 # language dependent text used in the interface for users (not admin)
 
 # Bulgarian translation 1.3 for phplist 2.10.10

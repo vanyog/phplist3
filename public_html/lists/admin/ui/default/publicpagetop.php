@@ -7,12 +7,9 @@
 
   Michiel Dethmers, phpList Ltd 2003 - 2015
 */
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $strLancode?>" lang="<?php echo $strLancode?>" dir="<?php echo $strLandir?>">
+?><!DOCTYPE html>
+<html lang="<?php echo $strLancode?>">
 <head>
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
 <meta name="License" content="GNU Affero General Public License, http://www.gnu.org/licenses/agpl.html" />
 <meta name="Author" content="Michiel Dethmers - https://www.phplist.com" />
 <meta name="Copyright" content="Michiel Dethmers, phpList Ltd - http://phplist.com" />

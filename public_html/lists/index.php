@@ -325,7 +325,7 @@ if ($login_required && empty($_SESSION['userloggedin']) && !$canlogin) {
     echo '<title>'.$GLOBALS['strSubscribeTitle'].'</title>';
     echo $pagedata['header'];
     $req = Sql_Query(sprintf('select * from %s where active', $tables['subscribepage']));
-        
+
     // If active subscribe pages exist then list them
     if (Sql_Affected_Rows()) {
         while ($row = Sql_Fetch_Array($req)) {

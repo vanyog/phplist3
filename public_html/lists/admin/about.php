@@ -14,7 +14,7 @@
             <td>
                 Powered by <a href="https://www.phplist.com" target="_blank">phplist</a>, version <?php echo VERSION ?> (<a href="https://github.com/phpList/phplist3/" target="_blank">source)</a>
                 <a href="https://phplist.com/poweredby" target="_blank">
-                    <img src="../images/power-phplist.png" alt="Powered by phpList button" border="0"/></a>
+                    <img src="../images/power-phplist.png" alt="Powered by phpList button"></a>
             </td>
         </tr>
         <tr>
@@ -31,7 +31,7 @@
             <td>
                 <p><?php echo s('Certified Secure by ') ?><a href="https://www.httpcs.com/"
                                                              title="Web Vulnerability Scanner" target="_blank"><img
-                            src="images/LogoCertifiedHTTPCS.png" height="20" width="100" border="0"
+                            src="images/LogoCertifiedHTTPCS.png" height="20" width="100"
                             alt="Certified Secure by HTTPCS, Web Vulnerability Scanner"
                             title="Certified Secure by HTTPCS, Web Vulnerability Scanner"/></a>
                 </p>

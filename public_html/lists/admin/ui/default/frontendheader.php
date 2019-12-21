@@ -12,7 +12,7 @@
 
 <div id="header" >
 <div id="rack-functions">
-<h1 id="logo"><a href="http://[WEBSITE]" title="Visit our website">[ORGANISATION_NAME]</a></h1>
+<h1 id="logo"><a href="http://[WEBSITE]" title="Посетете нашия уебсайт">[ORGANISATION_NAME]</a></h1>
 </div>
 </div>
 <div id="wrapper">

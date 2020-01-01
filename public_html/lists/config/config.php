@@ -87,3 +87,6 @@ $language_module = 'bulgarian.inc';
 $default_system_language = "bg";
 $pageroot = '/pl/public_html/lists';
 define('VERBOSE', true);
+$developer_email = 'info@vanyog.com';
+$form_action = "#";
+

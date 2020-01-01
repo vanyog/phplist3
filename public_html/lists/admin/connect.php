@@ -320,6 +320,8 @@ function formStart($additional = '')
     if ($form_action) {
         $html = sprintf('<form method="post" action="%s" %s>', $form_action, $additional);
         // retain all get variables as hidden ones
+        if(!isset($_REQUEST['p'])) $_REQUEST['p'] = '';
+        if(!isset($_REQUEST['page'])) $_REQUEST['page'] = '';
         foreach (array(
                      'p',
                      'page',
@@ -348,7 +350,7 @@ function formStart($additional = '')
             $GLOBALS['tables']['admintoken']), 1);
     }
 
-    return $html;
+    return "\n".$html;
 }
 
 function checkAccess($page, $pluginName = '')
@@ -472,7 +474,7 @@ function Error($msg, $documentationURL = '')
     }
     echo '</div>';
 
-    $GLOBALS['mail_error'] .= 'Error: '.$msg."\n";
+    $GLOBALS['mail_error'] .= s('Error: ').$msg."\n";
     ++$GLOBALS['mail_error_count'];
     if (is_array($_POST) && count($_POST)) {
         $GLOBALS['mail_error'] .= "\nPost vars:\n";
@@ -651,8 +653,8 @@ $GLOBALS['pagecategories'] = array(
 
         ),
         'menulinks' => array(
-            'users',
             'usermgt',
+            'users',
             'attributes',
             'list',
             'import',

@@ -123,7 +123,7 @@ while ($row = Sql_Fetch_array($res)) {
 
 } ?>
 
-<a name="new"></a>
+<a id="new"></a>
 <h3><?php echo $GLOBALS['I18N']->get('Add a new Attribute:'); ?></h3>
 <table class="attributeNew" border="1">
     <tr>

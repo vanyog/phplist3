@@ -320,7 +320,7 @@ $simpleResponsiveTemplate = <<<EOD
     <body style=" background-color: #f6f6f6;font-family: sans-serif;-webkit-font-smoothing: antialiased;font-size: 14px;line-height: 1.4;margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <p>&nbsp;</p>
 
-    <table cellpadding="0" cellspacing="0" class="body" role="presentation" style="border-collapse: separate;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;">
+    <table class="body" role="presentation" style="border-collapse: separate;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;">
 	    <tbody>
 		    <tr>
 			    <td style="font-family: sans-serif;font-size: 14px;vertical-align: top;">&nbsp;</td>
@@ -335,7 +335,7 @@ $simpleResponsiveTemplate = <<<EOD
 				    <tbody>
 					    <tr>
 						    <td class="wrapper" style="font-family: sans-serif;font-size: 14px;vertical-align: top;">
-                                                    <table cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;">
+                                                    <table role="presentation" style="border-collapse: separate;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;">
 							    <tbody>
 								    <tr>
 									    <td style="font-family: sans-serif;font-size: 14px;vertical-align: top;">
@@ -353,7 +353,7 @@ $simpleResponsiveTemplate = <<<EOD
 			    <!-- START FOOTER -->
 
 			    <div class="footer">
-                            <table cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;">
+                            <table role="presentation" style="border-collapse: separate;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 100%;">
 				    <tbody>
 					    <tr>
 						   <td class="templatecontent-block" style="font-family: sans-serif;font-size: 13px;vertical-align: top;">

@@ -275,7 +275,7 @@ function Sql_Fetch_Assoc($dbresult)
 
 function Sql_Fetch_Row($dbresult)
 {
-    if ($dbresult) {
+    if (is_a($dbresult, 'mysqli_result')) {
         return mysqli_fetch_row($dbresult);
     }
     return false;

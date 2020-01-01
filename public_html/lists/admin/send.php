@@ -135,21 +135,21 @@ if ($done) {
 
 /*if (!$_GET["id"]) {
   Sql_Query(sprintf('insert into %s (subject,status,entered)
-    values("(no subject)","draft",now())',$GLOBALS["tables"]["message"]));
+    values(s('(no subject)'),"draft",now())',$GLOBALS["tables"]["message"]));
   $id = Sql_Insert_id();
   Redirect("send&amp;id=$id");
 }
 */
 $list_content = '
 <div id="listselection" class="accordion">
-<h3><a name="lists">' .$GLOBALS['I18N']->get('Please select the lists you want to send your campaign to').':</a></h3>
+<h3><a id="lists">' .$GLOBALS['I18N']->get('Please select the lists you want to send your campaign to').':</a></h3>
 ';
 
 $list_content .= listSelectHTML($messagedata['targetlist'], 'targetlist', $subselect);
 
 if (USE_LIST_EXCLUDE) {
     $list_content .= '
-    <h3><a name="excludelists">' .$GLOBALS['I18N']->get('Please select the lists you want to exclude from this campaign').'</a></h3>';
+    <h3><a id="excludelists">' .$GLOBALS['I18N']->get('Please select the lists you want to exclude from this campaign').'</a></h3>';
 
     if (!isset($messagedata['excludelist']) || !is_array($messagedata['excludelist'])) {
         $messagedata['excludelist'] = array();

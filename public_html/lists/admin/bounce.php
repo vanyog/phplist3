@@ -237,7 +237,7 @@ if ($id) {
     echo $p->display();
 
     // if (USE_ADVANCED_BOUNCEHANDLING) {
-    $p = new UIPanel(s('New Rule').'<a name="newrule"></a>', $newruleform);
+    $p = new UIPanel(s('New Rule').'<a id="newrule"></a>', $newruleform);
     echo $p->display();
     // }
 }

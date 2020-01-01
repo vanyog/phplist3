@@ -204,7 +204,7 @@ if (empty($id)) {
 
 function configCategoryDisplay($c){
 if($c=='general') return s('general');
-if($c=='system') return s('system');
+if($c=='system') return s('System');
 if($c=='security') return s('security');
 if($c=='reporting') return s('reporting');
 if($c=='campaign') return s('campaign');

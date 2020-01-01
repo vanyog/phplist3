@@ -78,7 +78,7 @@ if (checkAccess('statsoverview')) {
 }
 
 if ($some) {
-    echo '<h3><a name="main">'.$GLOBALS['I18N']->get('Main').'</a></h3>';
+    echo '<h3><a id="main">'.$GLOBALS['I18N']->get('Main').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';
@@ -125,7 +125,7 @@ if (checkAccess('reconcileusers')) {
     $ls->setClass($element, 'reconcileusers');
 }
 if ($some) {
-    echo '<h3><a name="list">'.$GLOBALS['I18N']->get('List and user functions').'</a></h3>';
+    echo '<h3><a id="list">'.$GLOBALS['I18N']->get('List and user functions').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';
@@ -169,7 +169,7 @@ if (checkAccess('spage')) {
 }
 
 if ($some) {
-    echo '<h3><a name="config">'.$GLOBALS['I18N']->get('Configuration Functions').'</a></h3>';
+    echo '<h3><a id="config">'.$GLOBALS['I18N']->get('Configuration Functions').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';
@@ -195,7 +195,7 @@ if (checkAccess('adminattributes')) {
     $ls->setClass($element, 'adminattributes');
 }
 if ($some) {
-    echo '<h3><a name="admin">'.$GLOBALS['I18N']->get('Administrator Functions').'</a></h3>';
+    echo '<h3><a id="admin">'.$GLOBALS['I18N']->get('Administrator Functions').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';
@@ -272,7 +272,7 @@ if (checkAccess('bounces')) {
     $ls->setClass($element, 'bounces');
 }
 if ($some) {
-    echo '<h3><a name="msg">'.$GLOBALS['I18N']->get('Message Functions').'</a></h3>';
+    echo '<h3><a id="msg">'.$GLOBALS['I18N']->get('Message Functions').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';
@@ -321,7 +321,7 @@ if (count($GLOBALS['plugins'])) {
     }
 }
 if ($some) {
-    echo '<h3><a name="plugins">'.$GLOBALS['I18N']->get('Plugins').'</a></h3>';
+    echo '<h3><a id="plugins">'.$GLOBALS['I18N']->get('Plugins').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';
@@ -369,7 +369,7 @@ if (checkAccess('admin') && !isSuperUser()) {
     $ls->setClass($element, 'change-pass');
 }
 if ($some) {
-    echo '<h3><a name="system">'.$GLOBALS['I18N']->get('System Functions').'</a></h3>';
+    echo '<h3><a id="system">'.$GLOBALS['I18N']->get('System Functions').'</a></h3>';
     $ls->noShader();
     $ls->noHeader();
     echo '<div>'.$ls->display().'</div>';

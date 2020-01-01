@@ -195,7 +195,7 @@ $panel = new UIPanel(htmlspecialchars($campaignTitle), $content);
 echo $panel->display();
 ?>
 
-    <a name="resend"></a><p class="information"><?php echo s('Send this campaign to another list'); ?>:</p>
+    <a id="resend"></a><p class="information"><?php echo s('Send this campaign to another list'); ?>:</p>
 <?php echo formStart(' class="messageResend" ') ?>
     <input type="hidden" name="id" value="<?php echo $id ?>"/>
 

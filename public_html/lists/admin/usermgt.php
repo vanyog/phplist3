@@ -6,9 +6,9 @@ require_once dirname(__FILE__).'/accesscheck.php';
 //$spe = '</li>';
 // Replace the $spb & $spe by <li id="li_ID"> & </li>
 $html = '<ul>';
-$html .= '<li id="users">'.PageLink2('users', $GLOBALS['I18N']->get('search subscribers')).'</li>';
+$html .= '<li id="users">'.PageLink2('users', $GLOBALS['I18N']->get('Search subscribers')).'</li>';
 $html .= '<li id="attributes">'.PageLink2('attributes',
-        $GLOBALS['I18N']->get('manage subscriber attributes')).'</li>';
+        $GLOBALS['I18N']->get('Мanage subscriber attributes')).'</li>';
 
 $attributehtml = '';
 if ($tables['attribute'] && Sql_Table_Exists($tables['attribute'])) {

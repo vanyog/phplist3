@@ -50,7 +50,7 @@ if (!$id) {
     $defaulttemplate = getConfig('defaultmessagetemplate');
     $defaultfooter = getConfig('messagefooter');
     Sql_Query(sprintf('insert into %s (subject, status, entered, sendformat, embargo, repeatuntil, owner, template, tofield, replyto,footer, uuid)
-    values("(no title)", "draft", now(), "HTML", now(), now(), %d, %d, "", "", "%s", "%s" )',
+    values("'.s('(no title)').'", "draft", now(), "HTML", now(), now(), %d, %d, "", "", "%s", "%s" )',
         $GLOBALS['tables']['message'],
         $_SESSION['logindetails']['id'],
         $defaulttemplate, sql_escape($defaultfooter), (string) Uuid::generate(4)));
@@ -683,7 +683,7 @@ if (!$done) {
     $utf8_subject = $messagedata['subject'];
     $utf8_from = $messagedata['fromfield'];
     if (empty($utf8_subject)) {
-        $utf8_subject = '(no subject)';
+        $utf8_subject = s('(no subject)');
     }
     if (empty($messagedata['campaigntitle'])) {
         $messagedata['campaigntitle'] = $utf8_subject;
@@ -1254,7 +1254,7 @@ $("#addtoqueue").html("");
 </script>';
 
 $testValue = trim($messagedata['subject']);
-if (empty($testValue) || $testValue == '(no subject)') {
+if (empty($testValue) || $testValue == s('(no subject)')) {
     $allReady = false;
     $GLOBALS['pagefooter']['addtoqueue'] .= '<script type="text/javascript">
   $("#addtoqueue").append(\'<div class="missing">' .$GLOBALS['I18N']->get('subject missing').'</div>\');

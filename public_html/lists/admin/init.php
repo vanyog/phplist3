@@ -6,7 +6,7 @@
  * it cannot use the DB contents, as the DB connection hasn't been established yet
  */
 define('PHPLISTINIT', true);
-error_reporting(0);
+error_reporting(E_ALL);
 
 //## remove on rollout ###
 if (is_file(dirname(__FILE__).'/../../../VERSION')) {
@@ -21,6 +21,9 @@ if (is_file(dirname(__FILE__).'/../../../VERSION')) {
 } else {
     $version = 'dev';
 }
+
+$version = '3.5.0';
+define('VERSION', $version);
 
 if (!defined('VERSION')) {
     if (!ini_get('open_basedir') && is_dir(dirname(__FILE__).'/../../../.git')) {

@@ -187,7 +187,7 @@ if ($id) {
 }
 
 echo '<div class="accordion">';
-$generalinfoHTML = '<h3><a name="general">'.s('General Information').'</a></h3>';
+$generalinfoHTML = '<h3><a id="general">'.s('General Information').'</a></h3>';
 $generalinfoHTML .= '<div>';
 
 $generalinfoHTML .= sprintf('<label for="title">%s</label><input type="text" name="title" value="%s" size="60" />',
@@ -274,7 +274,7 @@ $generalinfoHTML .= sprintf('<input type="radio" name="emaildoubleentry" value="
 
 $generalinfoHTML .= '</div>';
 
-$transactionHTML = '<h3><a name="transaction">'.s('Transaction messages').'</a></h3>';
+$transactionHTML = '<h3><a id="transaction">'.s('Transaction messages').'</a></h3>';
 
 $transactionHTML .= '<div>';
 $transactionHTML .= '<h4>'.s('Message they receive when they subscribe').'</h4>';
@@ -312,7 +312,7 @@ $testpanel->setID('testpanel');
 
 $transactionHTML .= '</div>';
 
-$attributesHTML = '<h3><a name="attributes">'.s('Select the attributes to use').'</a></h3>';
+$attributesHTML = '<h3><a id="attributes">'.s('Select the attributes to use').'</a></h3>';
 $attributesHTML .= '<div>';
 $hasAttributes = false;
 
@@ -330,7 +330,7 @@ while ($row = Sql_Fetch_Array($req)) {
         $bgcol = '#ffffff';
     }
 
-    $attributesHTML .= '<table class="spageeditListing" border="1" width="100%" bgcolor="'.$bgcol.'">';
+    $attributesHTML .= '<table class="spageeditListing" border="1" bgcolor="'.$bgcol.'">';
     $attributesHTML .= '<tr><td colspan="2" width="150">'.s('Attribute').': '.$row['id'].'</td>';
     $attributesHTML .= '<td colspan="2">'.s('Check this box to use this attribute in the page').'<input type="checkbox" name="attr_use['.$row['id'].']" value="1" '.$checked[$row['id']].' /></td></tr>';
     $attributesHTML .= '<tr><td colspan="2">'.s('Name').': </td><td colspan="2"><h4>'.htmlspecialchars(stripslashes($row['name'])).'</h4></td></tr>';
@@ -351,12 +351,12 @@ $pluginsHTML = '';
 foreach ($GLOBALS['plugins'] as $pluginname => $plugin) {
     $pluginHTML = $plugin->displaySubscribepageEdit($data);
     if (!empty($pluginHTML)) {
-        $pluginsHTML .= '<h3><a name="'.$pluginname.'">'.s('Information needed for %s', $plugin->name).'</a></h3>';
+        $pluginsHTML .= '<h3><a id="'.$pluginname.'">'.s('Information needed for %s', $plugin->name).'</a></h3>';
         $pluginsHTML .= '<div>'.$pluginHTML.'</div>';
     }
 }
 
-$listsHTML = '<h3><a name="lists">'.s('Select the lists to offer').'</a></h3>';
+$listsHTML = '<h3><a id="lists">'.s('Select the lists to offer').'</a></h3>';
 $listsHTML .= '<div>';
 $listsHTML .= sprintf('<label for="listcategories">%s</label><br/>',
     s('Display list categories'));

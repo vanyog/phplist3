@@ -361,7 +361,7 @@ $c = 0;
 echo '<div class="accordion">';
 while ($row = Sql_Fetch_array($res)) {
     ++$c;
-    echo '<h3><a name="'.$row['id'].'">'.
+    echo '<h3><a id="'.$row['id'].'">'.
         s('Attribute').': '.$row['id'].' '.htmlspecialchars(stripslashes(strip_tags($row['name'])));
     if ($formtable_exists) {
         sql_query('select * from formfield where attribute = '.$row['id']);
@@ -422,7 +422,7 @@ if ($c) {
 }
 
 echo '<br /><br /><br /><div id="new-attribute">
-<a name="new"></a>
+<a id="new"></a>
 <h3>' .s('Add new Attribute').'</h3>
 <div class="alert alert-warning">' .s('Warning: Storage of sensitive personal data such as race, health, and sexual orientation is regulated by some data protection laws').'. <a href="https://www.phplist.org/manual/ch048_gdpr.xhtml" target="_blank">' .s('Read more'). '&hellip;</a></div>
 

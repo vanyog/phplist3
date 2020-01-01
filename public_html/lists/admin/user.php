@@ -345,8 +345,8 @@ if ($id) {
     if ($access == 'all') {
         $delete = new ConfirmButton(
             htmlspecialchars(s('Are you sure you want to remove this subscriber from the system.')),
-            PageURL2("user&delete=$id".addCsrfGetToken(), 'button', s('remove subscriber')),
-            s('remove subscriber'),'','btn btn-lg btn-danger pull-right');
+            PageURL2("user&delete=$id".addCsrfGetToken(), 'button', s('Remove subscriber')),
+            s('Remove subscriber'),'','btn btn-lg btn-danger pull-right');
         echo $delete->show();
     }
 

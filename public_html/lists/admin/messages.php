@@ -188,7 +188,7 @@ if (!empty($_GET['delete'])) {
     verifyCsrfGetToken();
     $todelete = array();
     if ($_GET['delete'] == 'draft') {
-        $req = Sql_Query(sprintf('select id from %s where status = "draft" and (subject = "" or subject = "(no subject)") %s',
+        $req = Sql_Query(sprintf('select id from %s where status = "draft" and (subject = "" or subject = "'.'(no subject)'.'") %s',
             $GLOBALS['tables']['message'], $ownerselect_and));
         while ($row = Sql_Fetch_Row($req)) {
             array_push($todelete, $row[0]);

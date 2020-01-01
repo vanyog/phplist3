@@ -11,3 +11,4 @@ public_html/lists/admin/info/
 /build
 .DS_Store
 public_html/lists/config/config.php
+public_html/lists-zip

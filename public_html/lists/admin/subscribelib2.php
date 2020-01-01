@@ -785,7 +785,7 @@ function ListAvailableLists($userid = 0, $lists_to_show = '')
                 $displayedCat = $key;
             } else  $displayedCat = s('General');
 
-            $html .= '<h3 ><a name="general" >' . $displayedCat . '</a></h3>';
+            $html .= '<h3 ><a id="general" >' . $displayedCat . '</a></h3>';
             $html .= '<div>';
             $html .= '<ul class="list" id="listcategory">';
             $count = 0;

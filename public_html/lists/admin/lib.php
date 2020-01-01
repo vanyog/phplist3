@@ -220,8 +220,8 @@ function loadMessageData($msgid)
         $messagedata['message'] = $_POST['message'];
         $messagedata['targetlist'] = $_POST['targetlist'];
     }
-    if ($messagedata['subject'] == '(no title)') {
-        $messagedata['subject'] = '(no subject)';
+    if ($messagedata['subject'] == s('(no title)')) {
+        $messagedata['subject'] = s('(no subject)');
     }
 
     $msgdata_req = Sql_Query(sprintf('select * from %s where id = %d',
@@ -320,14 +320,14 @@ function loadMessageData($msgid)
     }
 
     if (empty($messagedata['campaigntitle'])) {
-        if ($messagedata['subject'] != '(no subject)') {
+        if ($messagedata['subject'] != s('(no subject)')) {
             $messagedata['campaigntitle'] = $messagedata['subject'];
         } else {
-            $messagedata['campaigntitle'] = '(no title)';
+            $messagedata['campaigntitle'] = s('(no title)');
         }
     }
     //# copy subject to title
-    if ($messagedata['campaigntitle'] == '(no title)' && $messagedata['subject'] != '(no subject)') {
+    if ($messagedata['campaigntitle'] == s('(no title)') && $messagedata['subject'] != s('(no subject)')) {
         $messagedata['campaigntitle'] = $messagedata['subject'];
     }
     $GLOBALS['MD'][$msgid] = $messagedata;

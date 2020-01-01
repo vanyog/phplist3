@@ -723,8 +723,7 @@ if (!function_exists('getconfig')) {
 
         $value = '';
         if (!empty($hasconf)) {
-            $req = Sql_Query(sprintf('select value,editable from %s where item = "%s"', $tables['config'],
-                sql_escape($item)));
+            $req = Sql_Query( sprintf('select value,editable from %s where item = "%s"', $tables['config'], sql_escape($item)) );
             if (!Sql_Affected_Rows() || !$hasconf) {
                 if (isset($default_config[$item])) {
                     $value = $default_config[$item]['value'];

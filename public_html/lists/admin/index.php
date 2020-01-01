@@ -1,12 +1,14 @@
 <?php
 
+error_reporting(E_ALL); ini_set('display_errors',1);
+
 // check for basic prerequisites
 require_once dirname(__FILE__).'/checkprerequisites.php';
 
 if (ob_get_level() == 0) {
     @ob_start();
 }
-$er = error_reporting(0);
+$er = error_reporting(E_ALL);
 // check for commandline and cli version
 if (!isset($_SERVER['SERVER_NAME']) && PHP_SAPI != 'cli') {
     echo 'Warning: commandline only works well with the cli version of PHP';
@@ -408,7 +410,7 @@ $languageswitcher = '';
 if (LANGUAGE_SWITCH && empty($logoutontop) && !$ajax && empty($_SESSION['firstinstall']) && empty($_GET['firstinstall'])) {
     $languageswitcher = '
  <div id="languageswitcher">
-       <form name="languageswitchform" method="post" action="">';
+       <form name="languageswitchform" method="post" action="#">';
     $languageswitcher .= '
            <select name="setlanguage" onchange="document.languageswitchform.submit()">';
     $lancount = 0;
@@ -512,9 +514,9 @@ if (!$GLOBALS['commandline']) {
 }
 
 if (!$ajax && $page != 'login') {
-    if (strpos(VERSION, 'dev') && !TEST) {
+    if (strpos(VERSION, 'dev')!==false && !TEST) {
         if (!empty($GLOBALS['developer_email'])) {
-            Info( s('Running DEV version. All emails will be sent to '.$GLOBALS['developer_email']) );
+            Info( s('Running DEV version. All emails will be sent to ').' '.$GLOBALS['developer_email'] );
         } else {
             Info( s('Running DEV version, but developer email is not set') );
         }

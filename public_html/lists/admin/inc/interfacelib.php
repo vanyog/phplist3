@@ -229,7 +229,7 @@ class WebblerListing
 
     public function listingStart($class = '')
     {
-        return '<table cellpadding="0" cellspacing="0" width="100%" class="listing '.$class.'">';
+        return '<table class="listing '.$class.'">';
     }
 
     public function listingHeader()
@@ -240,8 +240,8 @@ class WebblerListing
         }
 
         $heading = isset($this->elementHeading) ? $this->elementHeading : $this->title;
-        $html = '<tr valign="top">';
-        $html .= sprintf('<th><a name="%s"></a><div class="listinghdname">%s%s</div></th>',
+        $html = '<tr>';
+        $html .= sprintf('<th><a id="%s"></a><div class="listinghdname">%s%s</div></th>',
             str_replace(' ', '_', htmlspecialchars(mb_strtolower($heading))), $tophelp, $heading);
         $c = 1;
         foreach ($this->columns as $column => $columnname) {
@@ -399,7 +399,7 @@ class WebblerListing
 
     public function index()
     {
-        return '<a name="top">Index:</a><br />';
+        return '<a id="top">Index:</a><br />';
     }
 
     public function cmp($a, $b)
@@ -530,8 +530,8 @@ class WebblerListing2 extends WebblerListing
         if (!count($this->columns)) {
             $tophelp = $this->help;
         }
-        $html = '<tr valign="top">';
-        $html .= sprintf('<th><a name="%s"></a><div class="listinghdname">%s%s</div></th>',
+        $html = '<tr>';
+        $html .= sprintf('<th><a id="%s"></a><div class="listinghdname">%s%s</div></th>',
             str_replace(' ', '_', htmlspecialchars(mb_strtolower($this->title))), $tophelp, $this->title);
         $c = 1;
         foreach ($this->columns as $column => $columnname) {
@@ -738,7 +738,7 @@ class DomTab
 
         foreach ($this->tabs as $title => $content) {
             $html .= '<div style="display: none;">';
-            $html .= sprintf('<h4><a name="%s" id="%s"><span class="hide">%s</span></a></h4>',
+            $html .= sprintf('<h4><a id="%s" id="%s"><span class="hide">%s</span></a></h4>',
                 $this->domtabcluster.mb_strtolower($title), $this->domtabcluster.urlencode(strtolower($title)),
                 $title);
             $html .= $content;
@@ -1349,7 +1349,7 @@ class WebblerShader
     {
         $html = sprintf('
 <div class="tablewrapper">
-<table width="98%%" align="center" cellpadding="0" cellspacing="0">');
+<table width="98%%" align="center">');
 
         return $html;
     }

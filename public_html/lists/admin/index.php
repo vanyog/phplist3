@@ -1,14 +1,12 @@
 <?php
 
-error_reporting(E_ALL); ini_set('display_errors',1);
-
 // check for basic prerequisites
 require_once dirname(__FILE__).'/checkprerequisites.php';
 
 if (ob_get_level() == 0) {
     @ob_start();
 }
-$er = error_reporting(E_ALL);
+$er = error_reporting(0);
 // check for commandline and cli version
 if (!isset($_SERVER['SERVER_NAME']) && PHP_SAPI != 'cli') {
     echo 'Warning: commandline only works well with the cli version of PHP';
@@ -263,7 +261,7 @@ if (preg_match("/([\w_]+)/", $page, $regs)) {
 if (!is_file($page.'.php') && !isset($_GET['pi'])) {
     $page = $GLOBALS['homepage'];
 }
-
+//die(print_r($GLOBALS,true));
 if (!$GLOBALS['admin_auth_module']) {
     // stop login system when no admins exist
     if (!Sql_Table_Exists($tables['admin'])) {

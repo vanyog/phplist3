@@ -10,5 +10,4 @@ public_html/lists/admin/info/
 *.kdev4
 /build
 .DS_Store
-public_html/lists/config/config.php
-public_html/lists-zip
+

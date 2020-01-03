@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-01 06:47+0000\n"
-"PO-Revision-Date: 2020-01-01 17:29+0200\n"
+"PO-Revision-Date: 2020-01-03 19:18+0200\n"
 "Last-Translator: Vanyo Georgiev <info@vanyog.com>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -605,7 +605,7 @@ msgstr ""
 #: public_html/lists/admin/actions/msgstatus.php:121
 #: public_html/lists/admin/import3.php:158
 msgid "Processing"
-msgstr ""
+msgstr "Обработка"
 
 #: public_html/lists/admin/msgstatus.php:30
 #: public_html/lists/admin/actions/msgstatus.php:121
@@ -812,7 +812,7 @@ msgstr "дни"
 
 #: public_html/lists/admin/connect.php:1957
 msgid "hours"
-msgstr "часове"
+msgstr "часа"
 
 #: public_html/lists/admin/connect.php:1960
 msgid "mins"
@@ -2872,7 +2872,7 @@ msgstr "подразбиране"
 #: public_html/lists/admin/bouncerules.php:61
 #: public_html/lists/admin/bouncerules.php:66
 msgid "active"
-msgstr "активен"
+msgstr "активна"
 
 #: public_html/lists/admin/spage.php:65
 msgid "not active"
@@ -3033,11 +3033,11 @@ msgstr ""
 #: public_html/lists/admin/userclicks.php:103
 #: public_html/lists/admin/userclicks.php:125 public_html/lists/admin/mviews.php:134
 msgid "Sent"
-msgstr "Изпратен"
+msgstr "Изпратени"
 
 #: public_html/lists/admin/messages.php:84
 msgid "draft"
-msgstr "чернова"
+msgstr "чернови"
 
 #: public_html/lists/admin/messages.php:87
 msgid "static"
@@ -3379,7 +3379,7 @@ msgid ""
 "in it. This  may  cause  errors"
 msgstr ""
 "Внимение: Вие сте посочиви, че съдържанието не е HTML, но в него има  някои HTML  "
-"тагове.Това  може  да предизвика грешки."
+"тагове.Това  може  да предизвика грешки"
 
 #: public_html/lists/admin/send_core.php:228
 msgid ""
@@ -3872,7 +3872,7 @@ msgstr ""
 
 #: public_html/lists/admin/message.php:83
 msgid "Edit campaign"
-msgstr ""
+msgstr "Редактирай кампания"
 
 #: public_html/lists/admin/message.php:91
 msgid "fromfield"
@@ -6471,7 +6471,7 @@ msgstr "HTML шаблон по подразбиране за използван�
 
 #: public_html/lists/admin/defaultconfig.php:251
 msgid "The HTML wrapper template for system messages"
-msgstr ""
+msgstr "HTML шаблон покриващ системните съобщения"
 
 #: public_html/lists/admin/defaultconfig.php:265
 msgid "URL where subscribers can sign up"
@@ -6515,69 +6515,75 @@ msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:332
 msgid "Subject of the message subscribers receive when they sign up"
-msgstr ""
+msgstr "Тема на съобщението, което абонатите получават при абониране"
 
 #: public_html/lists/admin/defaultconfig.php:361
 msgid "Message subscribers receive when they sign up"
-msgstr ""
+msgstr "Съобщение, което абонатите получават при абониране"
 
 #: public_html/lists/admin/defaultconfig.php:369
 msgid "Goodbye from our Newsletter"
-msgstr ""
+msgstr "Довиждане от нашия бюлетин"
 
 #: public_html/lists/admin/defaultconfig.php:370
 msgid "Subject of the message subscribers receive when they unsubscribe"
-msgstr ""
+msgstr "Тема на съобщението, което абонатите получават при отказване от абонамент"
 
 #: public_html/lists/admin/defaultconfig.php:393
 msgid "Message subscribers receive when they unsubscribe"
-msgstr ""
+msgstr "Съобщение, което абонатите получават при отказване от абонамент"
 
 #: public_html/lists/admin/defaultconfig.php:401
 msgid "Welcome to our Newsletter"
-msgstr ""
+msgstr "Добре дошли в нашия бюлетин"
 
 #: public_html/lists/admin/defaultconfig.php:402
 msgid ""
 "Subject of the message subscribers receive after confirming their email address"
 msgstr ""
+"Тема на съобщението, което абонатите получават при потвърждаване на своя имейл"
 
 #: public_html/lists/admin/defaultconfig.php:425
 msgid "Message subscribers receive after confirming their email address"
-msgstr ""
+msgstr "Съобщение, което абонатите получават при потвърждаване на своя имейл"
 
 #: public_html/lists/admin/defaultconfig.php:433
 msgid "[notify] Change of List-Membership details"
-msgstr ""
+msgstr "[уведомление] Промяна на данни за абонамент"
 
 #: public_html/lists/admin/defaultconfig.php:434
 msgid ""
 "Subject of the message subscribers receive when they have changed their details"
-msgstr ""
+msgstr "Тема на съобщението, които абонатите получават при промяна на данни"
 
 #: public_html/lists/admin/defaultconfig.php:466
 msgid "Message subscribers receive when they have changed their details"
-msgstr ""
+msgstr "Съобщение, които абонатите получават при промяна на данни"
 
 #: public_html/lists/admin/defaultconfig.php:483
 msgid ""
 "Part of the message that is sent to their new email address when subscribers "
 "change their information, and the email address has changed"
 msgstr ""
+"Част от съобщение, което се изпраща на новия имейл, когато абонатите променят "
+"своите данни, и променят имейла"
 
 #: public_html/lists/admin/defaultconfig.php:500
 msgid ""
 "Part of the message that is sent to their old email address when subscribers "
 "change their information, and the email address has changed"
 msgstr ""
+"Част от съобщение, което се изпраща на стария имейл, когато абонатите променят "
+"своите данни, и променят имейла"
 
 #: public_html/lists/admin/defaultconfig.php:507
 msgid "Your personal location"
-msgstr ""
+msgstr "Вашето местонахождение"
 
 #: public_html/lists/admin/defaultconfig.php:508
 msgid "Subject of message when subscribers request their personal location"
 msgstr ""
+"Тема на съобщението, които абонатите получават при промяна на местонахождението"
 
 #: public_html/lists/admin/defaultconfig.php:526
 msgid "Message when subscribers request their personal location"
@@ -6605,19 +6611,21 @@ msgstr ""
 
 #: public_html/lists/admin/defaultconfig.php:611
 msgid "String to always append to remote URL when using send-a-webpage"
-msgstr ""
+msgstr "Стринк, който да се добавя винаги, когато се изпраща уебстраница"
 
 #: public_html/lists/admin/defaultconfig.php:619
 msgid "Width for Wordwrap of Text messages"
 msgstr ""
+"Далжина на реда в текстови съобкщения, при която думите се пренасат на следващия "
+"ред"
 
 #: public_html/lists/admin/defaultconfig.php:627
 msgid "CSS for HTML messages without a template"
-msgstr ""
+msgstr "CSS за HTML съобщения без шаблон"
 
 #: public_html/lists/admin/defaultconfig.php:635
 msgid "Domains that only accept text emails, one per line"
-msgstr ""
+msgstr "Домейни, приемащи само текстови съобщения, по един на ред"
 
 #: public_html/lists/admin/defaultconfig.php:643
 msgid "last time TLDs were fetched"
@@ -6946,11 +6954,11 @@ msgstr ""
 
 #: public_html/lists/admin/index.php:456
 msgid "Process the queue"
-msgstr ""
+msgstr "Обработване на опашката"
 
 #: public_html/lists/admin/index.php:457
 msgid "View the queue"
-msgstr ""
+msgstr "Преглед на опашката"
 
 #: public_html/lists/admin/index.php:459
 #, php-format
@@ -7402,11 +7410,11 @@ msgstr ""
 
 #: public_html/lists/admin/processqueue.php:74
 msgid "Processing queued campaigns"
-msgstr ""
+msgstr "Обработване на кампанни от опашката"
 
 #: public_html/lists/admin/processqueue.php:93
 msgid "Using local processing"
-msgstr ""
+msgstr "Използване на локална обработка"
 
 #: public_html/lists/admin/processqueue.php:93
 msgid "Reset"
@@ -7414,11 +7422,11 @@ msgstr ""
 
 #: public_html/lists/admin/processqueue.php:96
 msgid "To send your queue, you use the service from phpList.com"
-msgstr ""
+msgstr "За да изпратите своята кампания Вие използвате услуга от phpList.com"
 
 #: public_html/lists/admin/processqueue.php:97
 msgid "View progress"
-msgstr ""
+msgstr "Преглед на напредъка"
 
 #: public_html/lists/admin/processqueue.php:99
 msgid "Reset choice"
@@ -9701,7 +9709,7 @@ msgstr ""
 #: admin/index.php:583
 #, php-format
 msgid "You have %s campaign(s) in the queue, ready for processing"
-msgstr ""
+msgstr "Вие имате %s кампании на опашка, готови за обработка"
 
 #: admin/index.php:756
 msgid "phpList is in maintenance mode.<br/>Please try again in half an hour."
@@ -9760,7 +9768,7 @@ msgstr ""
 #: admin/message.php:166
 msgid ""
 "This campaign will be sent to subscribers who are member of the following lists"
-msgstr "Таза кампания ще бъде изпратена до абонатите от следните списъци"
+msgstr "Тази кампания ще бъде изпратена до абонатите от следните списъц"
 
 #: admin/message.php:167
 msgid ""
@@ -9782,7 +9790,7 @@ msgstr ""
 
 #: admin/messages.php:632 admin/messages.php:633
 msgid "Copy to Draft"
-msgstr ""
+msgstr "Копирай чернова"
 
 #: admin/msgbounces.php:62
 msgid "Select another campaign"
@@ -10076,6 +10084,8 @@ msgid ""
 "Profile links in test campaigns only work when you are logged in as an "
 "administrator."
 msgstr ""
+"Хипервръзките към профили в тестови кампании работят само ако сте влезли като "
+"администратор."
 
 #: admin/configure.php:206
 msgid "general"
@@ -10095,7 +10105,7 @@ msgstr "на кампанийните"
 
 #: admin/configure.php:211
 msgid "transactional"
-msgstr "на превода"
+msgstr "на трансакциите"
 
 #: admin/configure.php:212
 msgid "subscription-ui"

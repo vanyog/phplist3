@@ -1,5 +1,8 @@
 <?php
 
+// За целите на разработването и отстраняването на грешки, активираме показване на всички съобщения за грешки
+error_reporting(E_ALL); ini_set('display_errors',1);
+
 ob_start();
 //$er = error_reporting(0);
 require_once dirname(__FILE__).'/admin/inc/unregister_globals.php';

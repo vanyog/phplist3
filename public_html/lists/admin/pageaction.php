@@ -28,7 +28,7 @@ if (!empty($_GET['action'])) {
     Redirect('home');
 }
 
-echo $status;
+echo $status;die;
 if (0 && !empty($GLOBALS['developer_email'])) {
     echo '<br/><a href="'.$_SERVER['REQUEST_URI'].'" target="_blank">'.$_SERVER['REQUEST_URI'].'</a>';
 }

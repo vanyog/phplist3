@@ -910,7 +910,7 @@ while ($message = Sql_fetch_array($messages)) {
 
     $findUserEnd = $processqueue_timer->elapsed(1);
 
-    if ($findUserEnd - $findUserStart > 300 && !$GLOBALS['commandline']) {
+    if (intval($findUserEnd) - intval($findUserStart) > 300 && !$GLOBALS['commandline']) {
         processQueueOutput($GLOBALS['I18N']->get('Warning, finding the subscribers to send out to takes a long time, consider changing to commandline sending'));
     }
 
